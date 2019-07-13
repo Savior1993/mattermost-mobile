@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import {Text, TouchableHighlight, View} from 'react-native';
 import AwesomeIcon from 'react-native-vector-icons/FontAwesome';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 export const MODIFIER_LABEL_HEIGHT = 58;
 

@@ -8,12 +8,12 @@ import RNFetchBlob from 'rn-fetch-blob';
 
 import {Client4} from 'mattermost-redux/client';
 
-import {DeviceTypes} from 'app/constants';
+import {DeviceTypes} from '../../app/constants';
 import {
     getExtensionFromMime,
     getExtensionFromContentDisposition,
-} from 'app/utils/file';
-import mattermostBucket from 'app/mattermost_bucket';
+} from '../../app/utils/file';
+import mattermostBucket from '../../app/mattermost_bucket';
 
 const {IMAGES_PATH} = DeviceTypes;
 const DEFAULT_MIME_TYPE = 'image/png';

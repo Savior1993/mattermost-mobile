@@ -5,8 +5,8 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {Platform, View} from 'react-native';
 
-import {DeviceTypes, ViewTypes} from 'app/constants';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import {DeviceTypes, ViewTypes} from '../../../app/constants';
+import {makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 import Icon from 'react-native-vector-icons/Ionicons';
 

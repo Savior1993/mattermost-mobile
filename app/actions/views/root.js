@@ -9,10 +9,10 @@ import {getClientConfig, getDataRetentionPolicy, getLicenseConfig} from 'matterm
 import {receivedNewPost} from 'mattermost-redux/actions/posts';
 import {getMyTeams, getMyTeamMembers, selectTeam} from 'mattermost-redux/actions/teams';
 
-import {ViewTypes} from 'app/constants';
-import {recordTime} from 'app/utils/segment';
+import {ViewTypes} from '../../../app/constants';
+import {recordTime} from '../../../app/utils/segment';
 
-import {handleSelectChannel} from 'app/actions/views/channel';
+import {handleSelectChannel} from '../../../app/actions/views/channel';
 
 export function startDataCleanup() {
     return async (dispatch, getState) => {

@@ -8,9 +8,9 @@ import {intlShape} from 'react-intl';
 
 import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
-import mattermostManaged from 'app/mattermost_managed';
-import BottomSheet from 'app/utils/bottom_sheet';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
+import mattermostManaged from '../../../app/mattermost_managed';
+import BottomSheet from '../../../app/utils/bottom_sheet';
 
 export default class AtMention extends React.PureComponent {
     static propTypes = {

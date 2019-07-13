@@ -5,7 +5,7 @@ import React from 'react';
 
 import {Preferences} from 'mattermost-redux/constants';
 
-import PostBodyAdditionalContent from 'app/components/post_body_additional_content';
+import PostBodyAdditionalContent from '../../../app/components/post_body_additional_content';
 import {shallowWithIntl} from 'test/intl-test-helper';
 
 import PostBody from './post_body.js';

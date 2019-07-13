@@ -4,8 +4,8 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {setChannelDisplayName} from 'app/actions/views/channel';
-import {makeDirectChannel, makeGroupChannel} from 'app/actions/views/more_dms';
+import {setChannelDisplayName} from '../../../app/actions/views/channel';
+import {makeDirectChannel, makeGroupChannel} from '../../../app/actions/views/more_dms';
 
 import {getProfiles, getProfilesInTeam, searchProfiles} from 'mattermost-redux/actions/users';
 import {General} from 'mattermost-redux/constants';

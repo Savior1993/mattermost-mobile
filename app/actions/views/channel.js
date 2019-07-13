@@ -3,7 +3,7 @@
 
 import {batchActions} from 'redux-batched-actions';
 
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
 import {UserTypes} from 'mattermost-redux/action_types';
 import {
@@ -34,7 +34,7 @@ import {
 } from 'mattermost-redux/selectors/entities/channels';
 import {getCurrentTeamId, getTeamByName} from 'mattermost-redux/selectors/entities/teams';
 
-import telemetry from 'app/telemetry';
+import telemetry from '../../../app/telemetry';
 
 import {
     getChannelByName,
@@ -48,8 +48,8 @@ import EventEmitter from 'mattermost-redux/utils/event_emitter';
 import {getLastCreateAt} from 'mattermost-redux/utils/post_utils';
 import {getPreferencesByCategory} from 'mattermost-redux/utils/preference_utils';
 
-import {INSERT_TO_COMMENT, INSERT_TO_DRAFT} from 'app/constants/post_textbox';
-import {isDirectChannelVisible, isGroupChannelVisible} from 'app/utils/channels';
+import {INSERT_TO_COMMENT, INSERT_TO_DRAFT} from '../../../app/constants/post_textbox';
+import {isDirectChannelVisible, isGroupChannelVisible} from '../../../app/utils/channels';
 
 const MAX_POST_TRIES = 3;
 

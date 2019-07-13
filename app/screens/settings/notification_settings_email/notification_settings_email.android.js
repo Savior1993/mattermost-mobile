@@ -12,12 +12,12 @@ import {
 
 import {Preferences} from 'mattermost-redux/constants';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
+import {t} from '../../../../app/utils/i18n';
 
-import FormattedText from 'app/components/formatted_text';
-import RadioButtonGroup from 'app/components/radio_button';
-import SectionItem from 'app/screens/settings/section_item';
+import FormattedText from '../../../../app/components/formatted_text';
+import RadioButtonGroup from '../../../../app/components/radio_button';
+import SectionItem from '../../../../app/screens/settings/section_item';
 
 import NotificationSettingsEmailBase from './notification_settings_email_base';
 

@@ -16,14 +16,14 @@ import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 import {General} from 'mattermost-redux/constants';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import SafeAreaView from 'app/components/safe_area_view';
-import DrawerLayout from 'app/components/sidebars/drawer_layout';
-import UserStatus from 'app/components/user_status';
-import {DeviceTypes, NavigationTypes} from 'app/constants';
-import {confirmOutOfOfficeDisabled} from 'app/utils/status';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import SafeAreaView from '../../../../app/components/safe_area_view';
+import DrawerLayout from '../../../../app/components/sidebars/drawer_layout';
+import UserStatus from '../../../../app/components/user_status';
+import {DeviceTypes, NavigationTypes} from '../../../../app/constants';
+import {confirmOutOfOfficeDisabled} from '../../../../app/utils/status';
+import {preventDoubleTap} from '../../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
+import {t} from '../../../../app/utils/i18n';
 
 import DrawerItem from './drawer_item';
 import UserInfo from './user_info';

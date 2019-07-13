@@ -14,13 +14,13 @@ import deepEqual from 'deep-equal';
 
 import {General, RequestStatus} from 'mattermost-redux/constants';
 
-import StatusBar from 'app/components/status_bar';
-import NotificationPreferences from 'app/notification_preferences';
-import SettingsItem from 'app/screens/settings/settings_item';
-import {getNotificationProps} from 'app/utils/notify_props';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import StatusBar from '../../../../app/components/status_bar';
+import NotificationPreferences from '../../../../app/notification_preferences';
+import SettingsItem from '../../../../app/screens/settings/settings_item';
+import {getNotificationProps} from '../../../../app/utils/notify_props';
+import {preventDoubleTap} from '../../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../../app/utils/theme';
+import {t} from '../../../../app/utils/i18n';
 
 class NotificationSettings extends PureComponent {
     static propTypes = {

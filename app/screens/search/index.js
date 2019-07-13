@@ -14,11 +14,11 @@ import {isMinimumServerVersion} from 'mattermost-redux/utils/helpers';
 import {getUserCurrentTimezone} from 'mattermost-redux/utils/timezone_utils';
 import {getCurrentUser} from 'mattermost-redux/selectors/entities/users';
 
-import {loadChannelsByTeamName, loadThreadIfNecessary} from 'app/actions/views/channel';
-import {isLandscape} from 'app/selectors/device';
-import {makePreparePostIdsForSearchPosts} from 'app/selectors/post_list';
-import {handleSearchDraftChanged} from 'app/actions/views/search';
-import {getDeviceUtcOffset, getUtcOffsetForTimeZone} from 'app/utils/timezone';
+import {loadChannelsByTeamName, loadThreadIfNecessary} from '../../../app/actions/views/channel';
+import {isLandscape} from '../../../app/selectors/device';
+import {makePreparePostIdsForSearchPosts} from '../../../app/selectors/post_list';
+import {handleSearchDraftChanged} from '../../../app/actions/views/search';
+import {getDeviceUtcOffset, getUtcOffsetForTimeZone} from '../../../app/utils/timezone';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
 import Search from './search';

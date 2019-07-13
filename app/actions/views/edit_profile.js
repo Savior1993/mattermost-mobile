@@ -3,7 +3,7 @@
 
 import {updateMe, setDefaultProfileImage} from 'mattermost-redux/actions/users';
 
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
 export function updateUser(user, success, error) {
     return async (dispatch, getState) => {

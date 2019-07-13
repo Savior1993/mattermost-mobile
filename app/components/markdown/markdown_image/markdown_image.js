@@ -15,14 +15,14 @@ import {
     View,
 } from 'react-native';
 
-import FormattedText from 'app/components/formatted_text';
-import ProgressiveImage from 'app/components/progressive_image';
-import CustomPropTypes from 'app/constants/custom_prop_types';
-import mattermostManaged from 'app/mattermost_managed';
-import BottomSheet from 'app/utils/bottom_sheet';
-import ImageCacheManager from 'app/utils/image_cache_manager';
-import {previewImageAtIndex, calculateDimensions, isGifTooLarge} from 'app/utils/images';
-import {normalizeProtocol} from 'app/utils/url';
+import FormattedText from '../../../../app/components/formatted_text';
+import ProgressiveImage from '../../../../app/components/progressive_image';
+import CustomPropTypes from '../../../../app/constants/custom_prop_types';
+import mattermostManaged from '../../../../app/mattermost_managed';
+import BottomSheet from '../../../../app/utils/bottom_sheet';
+import ImageCacheManager from '../../../../app/utils/image_cache_manager';
+import {previewImageAtIndex, calculateDimensions, isGifTooLarge} from '../../../../app/utils/images';
+import {normalizeProtocol} from '../../../../app/utils/url';
 
 import brokenImageIcon from 'assets/images/icons/brokenimage.png';
 

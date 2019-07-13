@@ -10,8 +10,8 @@ import {
     Platform,
 } from 'react-native';
 
-import FormattedText from 'app/components/formatted_text';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import FormattedText from '../../../../app/components/formatted_text';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 export default class TextSetting extends PureComponent {
     static propTypes = {

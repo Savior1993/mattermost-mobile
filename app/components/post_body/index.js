@@ -21,9 +21,9 @@ import {
 } from 'mattermost-redux/utils/post_utils';
 import {isAdmin as checkIsAdmin, isSystemAdmin as checkIsSystemAdmin} from 'mattermost-redux/utils/user_utils';
 
-import {getDimensions} from 'app/selectors/device';
+import {getDimensions} from '../../../app/selectors/device';
 
-import {hasEmojisOnly} from 'app/utils/emoji_utils';
+import {hasEmojisOnly} from '../../../app/utils/emoji_utils';
 
 import PostBody from './post_body';
 

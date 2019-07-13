@@ -18,12 +18,12 @@ import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 import {General} from 'mattermost-redux/constants';
 import {debounce} from 'mattermost-redux/actions/helpers';
 
-import ChannelItem from 'app/components/sidebars/main/channels_list/channel_item';
-import {DeviceTypes, ListTypes} from 'app/constants';
-import {SidebarSectionTypes} from 'app/constants/view';
-import {t} from 'app/utils/i18n';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity} from 'app/utils/theme';
+import ChannelItem from '../../../../../../app/components/sidebars/main/channels_list/channel_item';
+import {DeviceTypes, ListTypes} from '../../../../../../app/constants';
+import {SidebarSectionTypes} from '../../../../../../app/constants/view';
+import {t} from '../../../../../../app/utils/i18n';
+import {preventDoubleTap} from '../../../../../../app/utils/tap';
+import {changeOpacity} from '../../../../../../app/utils/theme';
 
 const VIEWABILITY_CONFIG = {
     ...ListTypes.VISIBILITY_CONFIG_DEFAULTS,
@@ -399,7 +399,7 @@ export default class List extends PureComponent {
 
     emitUnreadIndicatorChange = debounce((showIndicator) => {
         if (showIndicator && !UnreadIndicator) {
-            UnreadIndicator = require('app/components/sidebars/main/channels_list/unread_indicator').default;
+            UnreadIndicator = require('../../../../../../app/components/sidebars/main/channels_list/unread_indicator').default;
         }
         this.setState({showIndicator});
     }, 100);

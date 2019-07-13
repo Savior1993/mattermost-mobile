@@ -13,8 +13,8 @@ import {
     View,
 } from 'react-native';
 
-import {getCodeFont} from 'app/utils/markdown';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
+import {getCodeFont} from '../../../app/utils/markdown';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../app/utils/theme';
 
 export default class Code extends React.PureComponent {
     static propTypes = {

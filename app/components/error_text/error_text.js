@@ -5,10 +5,10 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {Text} from 'react-native';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
-import FormattedText from 'app/components/formatted_text';
-import {GlobalStyles} from 'app/styles';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
+import FormattedText from '../../../app/components/formatted_text';
+import {GlobalStyles} from '../../../app/styles';
+import {makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 export default class ErrorText extends PureComponent {
     static propTypes = {

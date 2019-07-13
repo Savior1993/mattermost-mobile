@@ -9,8 +9,8 @@ import {
 } from 'react-native';
 import moment from 'moment-timezone';
 
-import FormattedDate from 'app/components/formatted_date';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import FormattedDate from '../../../../app/components/formatted_date';
+import {makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 // DateHeader accepts as a timestamp for rendering as part of a post list.
 export default class DateHeader extends PureComponent {

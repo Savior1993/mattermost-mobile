@@ -4,14 +4,14 @@
 import configureStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
 import {
     handleLoginIdChanged,
     handlePasswordChanged,
-} from 'app/actions/views/login';
+} from '../../../app/actions/views/login';
 
-jest.mock('app/init/credentials', () => ({
+jest.mock('../../../app/init/credentials', () => ({
     setAppCredentials: () => jest.fn(),
 }));
 

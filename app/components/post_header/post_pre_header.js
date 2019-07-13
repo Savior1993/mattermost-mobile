@@ -5,9 +5,9 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {Image, View} from 'react-native';
 
-import FormattedText from 'app/components/formatted_text';
-import {t} from 'app/utils/i18n';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import FormattedText from '../../../app/components/formatted_text';
+import {t} from '../../../app/utils/i18n';
+import {makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 import flagIcon from 'assets/images/post_header/flag.png';
 import pinIcon from 'assets/images/post_header/pin.png';

@@ -11,9 +11,9 @@ import {
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {CELL_WIDTH} from 'app/components/markdown/markdown_table_cell/markdown_table_cell';
+import {preventDoubleTap} from '../../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
+import {CELL_WIDTH} from '../../../../app/components/markdown/markdown_table_cell/markdown_table_cell';
 
 const MAX_HEIGHT = 300;
 

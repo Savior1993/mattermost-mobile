@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/FontAwesome';
-import CustomPropTypes from 'app/constants/custom_prop_types';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
 
 export default class MarkdownBlockQuote extends PureComponent {
     static propTypes = {

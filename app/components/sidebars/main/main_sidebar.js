@@ -15,18 +15,18 @@ import {intlShape} from 'react-intl';
 import {General, WebsocketEvents} from 'mattermost-redux/constants';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import SafeAreaView from 'app/components/safe_area_view';
-import DrawerLayout, {TABLET_WIDTH} from 'app/components/sidebars/drawer_layout';
-import {DeviceTypes} from 'app/constants';
-import mattermostManaged from 'app/mattermost_managed';
-import tracker from 'app/utils/time_tracker';
-import {t} from 'app/utils/i18n';
+import SafeAreaView from '../../../../app/components/safe_area_view';
+import DrawerLayout, {TABLET_WIDTH} from '../../../../app/components/sidebars/drawer_layout';
+import {DeviceTypes} from '../../../../app/constants';
+import mattermostManaged from '../../../../app/mattermost_managed';
+import tracker from '../../../../app/utils/time_tracker';
+import {t} from '../../../../app/utils/i18n';
 
 import ChannelsList from './channels_list';
 import DrawerSwiper from './drawer_swipper';
 import TeamsList from './teams_list';
 
-import telemetry from 'app/telemetry';
+import telemetry from '../../../../app/telemetry';
 
 const DRAWER_INITIAL_OFFSET = 40;
 const DRAWER_LANDSCAPE_OFFSET = 150;
@@ -203,7 +203,7 @@ export default class ChannelSidebar extends Component {
         }
 
         if (!channel) {
-            const utils = require('app/utils/general');
+            const utils = require('../../../../app/utils/general');
             const {intl} = this.context;
 
             const unableToJoinMessage = {
@@ -238,7 +238,7 @@ export default class ChannelSidebar extends Component {
 
         setTimeout(async () => {
             const displayValue = {displayName: channel.display_name};
-            const utils = require('app/utils/general');
+            const utils = require('../../../../app/utils/general');
 
             let result;
             if (channel.type === General.DM_CHANNEL) {

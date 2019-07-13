@@ -8,9 +8,9 @@ import {intlShape} from 'react-intl';
 
 import {General, RequestStatus} from 'mattermost-redux/constants';
 
-import Loading from 'app/components/loading';
-import {setNavigatorStyles} from 'app/utils/theme';
-import DeletedPost from 'app/components/deleted_post';
+import Loading from '../../../app/components/loading';
+import {setNavigatorStyles} from '../../../app/utils/theme';
+import DeletedPost from '../../../app/components/deleted_post';
 
 export default class ThreadBase extends PureComponent {
     static propTypes = {

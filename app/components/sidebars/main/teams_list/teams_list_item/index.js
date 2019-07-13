@@ -7,7 +7,7 @@ import {getCurrentUrl} from 'mattermost-redux/selectors/entities/general';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {getCurrentTeamId, getTeam, makeGetBadgeCountForTeamId} from 'mattermost-redux/selectors/entities/teams';
 
-import {removeProtocol} from 'app/utils/url';
+import {removeProtocol} from '../../../../../../app/utils/url';
 
 import TeamsListItem from './teams_list_item.js';
 

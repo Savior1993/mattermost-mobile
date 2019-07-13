@@ -15,15 +15,15 @@ import {
 import {injectIntl, intlShape} from 'react-intl';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
-import {changeOpacity} from 'app/utils/theme';
+import {changeOpacity} from '../../../../../../app/utils/theme';
 
 import {General} from 'mattermost-redux/constants';
 import {sortChannelsByDisplayName} from 'mattermost-redux/utils/channel_utils';
 import {displayUsername} from 'mattermost-redux/utils/user_utils';
-import {t} from 'app/utils/i18n';
+import {t} from '../../../../../../app/utils/i18n';
 
-import ChannelItem from 'app/components/sidebars/main/channels_list/channel_item';
-import {ListTypes} from 'app/constants';
+import ChannelItem from '../../../../../../app/components/sidebars/main/channels_list/channel_item';
+import {ListTypes} from '../../../../../../app/constants';
 
 const VIEWABILITY_CONFIG = ListTypes.VISIBILITY_CONFIG_DEFAULTS;
 

@@ -12,8 +12,8 @@ import {
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
-import {preventDoubleTap} from 'app/utils/tap';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import {preventDoubleTap} from '../../../../app/utils/tap';
+import {makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 class SettingDrawerButton extends PureComponent {
     static propTypes = {

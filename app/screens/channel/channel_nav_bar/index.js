@@ -3,7 +3,7 @@
 
 import {connect} from 'react-redux';
 
-import {isLandscape} from 'app/selectors/device';
+import {isLandscape} from '../../../../app/selectors/device';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import ChannelNavBar from './channel_nav_bar';

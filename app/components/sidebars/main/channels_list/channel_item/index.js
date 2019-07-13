@@ -15,7 +15,7 @@ import {getCurrentUserId, getUser} from 'mattermost-redux/selectors/entities/use
 import {getUserIdFromChannelName, isChannelMuted} from 'mattermost-redux/utils/channel_utils';
 import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
-import {getDraftForChannel} from 'app/selectors/views';
+import {getDraftForChannel} from '../../../../../../app/selectors/views';
 
 import ChannelItem from './channel_item';
 

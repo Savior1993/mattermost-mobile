@@ -6,9 +6,9 @@ import React from 'react';
 import Preferences from 'mattermost-redux/constants/preferences';
 
 import {shallowWithIntl} from 'test/intl-test-helper';
-import {emptyFunction} from 'app/utils/general';
+import {emptyFunction} from '../../../../app/utils/general';
 
-import RadioButtonGroup from 'app/components/radio_button';
+import RadioButtonGroup from '../../../../app/components/radio_button';
 
 import NotificationSettingsEmailAndroid from './notification_settings_email.android.js';
 

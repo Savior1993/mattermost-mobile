@@ -5,9 +5,9 @@ import React, {PureComponent} from 'react';
 import {Provider} from 'react-redux';
 import {IntlProvider} from 'react-intl';
 
-import {getTranslations} from 'app/i18n';
-import {getCurrentLocale} from 'app/selectors/i18n';
-import {store} from 'app/mattermost';
+import {getTranslations} from '../../app/i18n';
+import {getCurrentLocale} from '../../app/selectors/i18n';
+import {store} from '../../app/mattermost';
 
 import {extensionSelectTeamId} from './actions';
 import Extension from './extension';

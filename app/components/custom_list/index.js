@@ -5,8 +5,8 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {FlatList, Keyboard, Platform, SectionList, Text, View} from 'react-native';
 
-import {ListTypes} from 'app/constants';
-import {makeStyleSheetFromTheme, changeOpacity} from 'app/utils/theme';
+import {ListTypes} from '../../../app/constants';
+import {makeStyleSheetFromTheme, changeOpacity} from '../../../app/utils/theme';
 
 export const FLATLIST = 'flat';
 export const SECTIONLIST = 'section';

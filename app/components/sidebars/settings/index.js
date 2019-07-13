@@ -8,7 +8,7 @@ import {logout, setStatus} from 'mattermost-redux/actions/users';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {getCurrentUser, getStatusForUserId} from 'mattermost-redux/selectors/entities/users';
 
-import {isLandscape, getDimensions} from 'app/selectors/device';
+import {isLandscape, getDimensions} from '../../../../app/selectors/device';
 
 import SettingsSidebar from './settings_sidebar';
 

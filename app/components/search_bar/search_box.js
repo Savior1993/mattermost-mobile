@@ -17,7 +17,7 @@ import {
 import EvilIcon from 'react-native-vector-icons/EvilIcons';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
 
 const AnimatedTextInput = Animated.createAnimatedComponent(TextInput);
 const AnimatedIonIcon = Animated.createAnimatedComponent(IonIcon);

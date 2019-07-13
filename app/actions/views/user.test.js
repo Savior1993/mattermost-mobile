@@ -7,7 +7,7 @@ import thunk from 'redux-thunk';
 import {UserTypes} from 'mattermost-redux/action_types';
 import {General} from 'mattermost-redux/constants';
 
-import {setCurrentUserStatusOffline} from 'app/actions/views/user';
+import {setCurrentUserStatusOffline} from '../../../app/actions/views/user';
 
 const mockStore = configureStore([thunk]);
 

@@ -8,8 +8,8 @@ import {
     TouchableOpacity,
 } from 'react-native';
 
-import Emoji from 'app/components/emoji';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import Emoji from '../../../app/components/emoji';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 export default class Reaction extends PureComponent {
     static propTypes = {

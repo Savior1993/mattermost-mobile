@@ -8,8 +8,8 @@ import {
     ViewPropTypes,
 } from 'react-native';
 
-import FormattedText from 'app/components/formatted_text';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import FormattedText from '../../../app/components/formatted_text';
+import {makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 function NewMessagesDivider(props) {
     const style = getStyleFromTheme(props.theme);

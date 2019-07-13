@@ -5,8 +5,8 @@ import {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {intlShape} from 'react-intl';
 
-import {getNotificationProps} from 'app/utils/notify_props';
-import {setNavigatorStyles} from 'app/utils/theme';
+import {getNotificationProps} from '../../../../app/utils/notify_props';
+import {setNavigatorStyles} from '../../../../app/utils/theme';
 
 export default class NotificationSettingsMentionsBase extends PureComponent {
     static propTypes = {

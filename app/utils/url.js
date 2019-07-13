@@ -6,7 +6,7 @@ import {escapeRegex} from './markdown';
 
 import {Files} from 'mattermost-redux/constants';
 
-import {DeepLinkTypes} from 'app/constants';
+import {DeepLinkTypes} from '../../app/constants';
 
 const ytRegex = /(?:http|https):\/\/(?:www\.|m\.)?(?:(?:youtube\.com\/(?:(?:v\/)|(?:(?:watch|embed\/watch)(?:\/|.*v=))|(?:embed\/)|(?:user\/[^/]+\/u\/[0-9]\/)))|(?:youtu\.be\/))([^#&?]*)/;
 

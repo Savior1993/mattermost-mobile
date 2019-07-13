@@ -3,7 +3,7 @@
 
 import React from 'react';
 import {shallow} from 'enzyme';
-import SettingsItem from 'app/screens/settings/settings_item';
+import SettingsItem from '../../../../app/screens/settings/settings_item';
 import Preferences from 'mattermost-redux/constants/preferences';
 
 import DisplaySettings from './display_settings';

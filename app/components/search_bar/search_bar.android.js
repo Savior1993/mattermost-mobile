@@ -12,8 +12,8 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
-import {changeOpacity} from 'app/utils/theme';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
+import {changeOpacity} from '../../../app/utils/theme';
 
 export default class SearchBarAndroid extends PureComponent {
     static propTypes = {

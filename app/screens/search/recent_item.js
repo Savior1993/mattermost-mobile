@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import {Text, TouchableHighlight, TouchableOpacity, View} from 'react-native';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 export const RECENT_LABEL_HEIGHT = 42;
 

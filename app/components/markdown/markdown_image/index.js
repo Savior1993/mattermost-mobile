@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 
 import {getCurrentUrl} from 'mattermost-redux/selectors/entities/general';
 
-import {getDimensions} from 'app/selectors/device';
+import {getDimensions} from '../../../../app/selectors/device';
 
 import MarkdownImage from './markdown_image';
 

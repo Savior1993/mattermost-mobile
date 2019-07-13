@@ -7,7 +7,7 @@ import mimeDB from 'mime-db';
 
 import {lookupMimeType} from 'mattermost-redux/utils/file_utils';
 
-import {DeviceTypes} from 'app/constants/';
+import {DeviceTypes} from '../../app/constants/';
 
 const EXTRACT_TYPE_REGEXP = /^\s*([^;\s]*)(?:;|\s|$)/;
 const CONTENT_DISPOSITION_REGEXP = /inline;filename=".*\.([a-z]+)";/i;

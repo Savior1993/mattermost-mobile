@@ -10,7 +10,7 @@ import {
     View,
 } from 'react-native';
 
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import {makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 const {width: deviceWidth, height: deviceHeight} = Dimensions.get('window');
 

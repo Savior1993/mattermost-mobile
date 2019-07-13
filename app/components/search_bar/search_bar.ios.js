@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import React, {PureComponent} from 'react';
 import {InteractionManager, Keyboard} from 'react-native';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
 
 import Search from './search_box';
 

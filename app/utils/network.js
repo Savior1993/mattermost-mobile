@@ -7,8 +7,8 @@ import RNFetchBlob from 'rn-fetch-blob';
 
 import {Client4} from 'mattermost-redux/client';
 
-import mattermostBucket from 'app/mattermost_bucket';
-import mattermostManaged from 'app/mattermost_managed';
+import mattermostBucket from '../../app/mattermost_bucket';
+import mattermostManaged from '../../app/mattermost_managed';
 
 let certificate = '';
 let previousState;

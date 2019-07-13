@@ -3,13 +3,13 @@
 
 import {Alert, Platform} from 'react-native';
 
-import {handleLoginIdChanged} from 'app/actions/views/login';
-import {handleServerUrlChanged} from 'app/actions/views/select_server';
-import {getTranslations} from 'app/i18n';
-import mattermostBucket from 'app/mattermost_bucket';
-import mattermostManaged from 'app/mattermost_managed';
-import {getCurrentLocale} from 'app/selectors/i18n';
-import {t} from 'app/utils/i18n';
+import {handleLoginIdChanged} from '../../app/actions/views/login';
+import {handleServerUrlChanged} from '../../app/actions/views/select_server';
+import {getTranslations} from '../../app/i18n';
+import mattermostBucket from '../../app/mattermost_bucket';
+import mattermostManaged from '../../app/mattermost_managed';
+import {getCurrentLocale} from '../../app/selectors/i18n';
+import {t} from '../../app/utils/i18n';
 
 import {getAppCredentials} from './credentials';
 

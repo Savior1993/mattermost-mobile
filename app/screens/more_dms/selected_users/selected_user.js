@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 import {displayUsername} from 'mattermost-redux/utils/user_utils';
 

@@ -16,12 +16,12 @@ import {Sentry} from 'react-native-sentry';
 
 import {getFormattedFileSize} from 'mattermost-redux/utils/file_utils';
 
-import SettingsItem from 'app/screens/settings/settings_item';
-import StatusBar from 'app/components/status_bar';
-import {t} from 'app/utils/i18n';
-import {deleteFileCache, getFileCacheSize} from 'app/utils/file';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import SettingsItem from '../../../../app/screens/settings/settings_item';
+import StatusBar from '../../../../app/components/status_bar';
+import {t} from '../../../../app/utils/i18n';
+import {deleteFileCache, getFileCacheSize} from '../../../../app/utils/file';
+import {preventDoubleTap} from '../../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 import Config from 'assets/config';
 

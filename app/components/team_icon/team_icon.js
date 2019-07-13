@@ -12,8 +12,8 @@ import {
 
 import {Client4} from 'mattermost-redux/client';
 
-import ImageCacheManager from 'app/utils/image_cache_manager';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import ImageCacheManager from '../../../app/utils/image_cache_manager';
+import {makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 export default class TeamIcon extends React.PureComponent {
     static propTypes = {

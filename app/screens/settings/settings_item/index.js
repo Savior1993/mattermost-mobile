@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 import {Text, TouchableOpacity, View} from 'react-native';
 import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
 
-import FormattedText from 'app/components/formatted_text';
-import VectorIcon from 'app/components/vector_icon.js';
+import FormattedText from '../../../../app/components/formatted_text';
+import VectorIcon from '../../../../app/components/vector_icon.js';
 
 import getStyleSheet from './style';
 

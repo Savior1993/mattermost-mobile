@@ -16,7 +16,7 @@ import {
     I18nManager,
 } from 'react-native';
 
-import telemetry from 'app/telemetry';
+import telemetry from '../../../app/telemetry';
 
 const MIN_SWIPE_DISTANCE = 3;
 const DEVICE_WIDTH = parseFloat(Dimensions.get('window').width);

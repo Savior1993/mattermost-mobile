@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {View} from 'react-native';
 
-import FormattedText from 'app/components/formatted_text';
-import SelectedUser from 'app/screens/more_dms/selected_users/selected_user';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import FormattedText from '../../../../app/components/formatted_text';
+import SelectedUser from '../../../../app/screens/more_dms/selected_users/selected_user';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 export default class SelectedUsers extends React.PureComponent {
     static propTypes = {

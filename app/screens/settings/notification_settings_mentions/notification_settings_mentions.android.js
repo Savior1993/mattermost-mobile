@@ -11,13 +11,13 @@ import {
 } from 'react-native';
 import {injectIntl} from 'react-intl';
 
-import FormattedText from 'app/components/formatted_text';
-import RadioButtonGroup from 'app/components/radio_button';
-import StatusBar from 'app/components/status_bar';
-import TextInputWithLocalizedPlaceholder from 'app/components/text_input_with_localized_placeholder';
-import SectionItem from 'app/screens/settings/section_item';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import FormattedText from '../../../../app/components/formatted_text';
+import RadioButtonGroup from '../../../../app/components/radio_button';
+import StatusBar from '../../../../app/components/status_bar';
+import TextInputWithLocalizedPlaceholder from '../../../../app/components/text_input_with_localized_placeholder';
+import SectionItem from '../../../../app/screens/settings/section_item';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
+import {t} from '../../../../app/utils/i18n';
 
 import NotificationSettingsMentionsBase from './notification_settings_mention_base';
 

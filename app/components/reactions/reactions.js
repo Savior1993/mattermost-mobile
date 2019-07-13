@@ -11,8 +11,8 @@ import {
 import {intlShape} from 'react-intl';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 import addReactionIcon from 'assets/images/icons/reaction.png';
 
 import Reaction from './reaction';

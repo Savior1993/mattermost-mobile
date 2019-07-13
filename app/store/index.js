@@ -13,13 +13,13 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import configureStore from 'mattermost-redux/store';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import {NavigationTypes, ViewTypes} from 'app/constants';
-import appReducer from 'app/reducers';
-import {throttle} from 'app/utils/general';
-import {getSiteUrl, setSiteUrl} from 'app/utils/image_cache_manager';
-import {createSentryMiddleware} from 'app/utils/sentry/middleware';
+import {NavigationTypes, ViewTypes} from '../../app/constants';
+import appReducer from '../../app/reducers';
+import {throttle} from '../../app/utils/general';
+import {getSiteUrl, setSiteUrl} from '../../app/utils/image_cache_manager';
+import {createSentryMiddleware} from '../../app/utils/sentry/middleware';
 
-import mattermostBucket from 'app/mattermost_bucket';
+import mattermostBucket from '../../app/mattermost_bucket';
 
 import {messageRetention} from './middleware';
 import {createThunkMiddleware} from './thunk';

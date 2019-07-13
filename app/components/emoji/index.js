@@ -9,7 +9,7 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {Client4} from 'mattermost-redux/client';
 import {isMinimumServerVersion} from 'mattermost-redux/utils/helpers';
 
-import {EmojiIndicesByAlias, Emojis} from 'app/utils/emojis';
+import {EmojiIndicesByAlias, Emojis} from '../../../app/utils/emojis';
 
 import Emoji from './emoji';
 

@@ -7,12 +7,12 @@ import {Clipboard, Linking, Text} from 'react-native';
 import urlParse from 'url-parse';
 import {intlShape} from 'react-intl';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
-import {DeepLinkTypes} from 'app/constants';
-import mattermostManaged from 'app/mattermost_managed';
-import BottomSheet from 'app/utils/bottom_sheet';
-import {preventDoubleTap} from 'app/utils/tap';
-import {matchDeepLink, normalizeProtocol} from 'app/utils/url';
+import CustomPropTypes from '../../../../app/constants/custom_prop_types';
+import {DeepLinkTypes} from '../../../../app/constants';
+import mattermostManaged from '../../../../app/mattermost_managed';
+import BottomSheet from '../../../../app/utils/bottom_sheet';
+import {preventDoubleTap} from '../../../../app/utils/tap';
+import {matchDeepLink, normalizeProtocol} from '../../../../app/utils/url';
 
 import Config from 'assets/config';
 

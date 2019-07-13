@@ -5,10 +5,10 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {Text, TouchableOpacity, View} from 'react-native';
 
-import {emptyFunction} from 'app/utils/general';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {emptyFunction} from '../../../../../app/utils/general';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../../app/utils/theme';
 
-import ProfilePicture from 'app/components/profile_picture';
+import ProfilePicture from '../../../../../app/components/profile_picture';
 
 export default class UserInfo extends PureComponent {
     static propTypes = {

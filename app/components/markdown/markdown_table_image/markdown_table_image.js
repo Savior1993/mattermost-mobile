@@ -6,8 +6,8 @@ import React from 'react';
 import {intlShape} from 'react-intl';
 import {Text} from 'react-native';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
-import {preventDoubleTap} from 'app/utils/tap';
+import CustomPropTypes from '../../../../app/constants/custom_prop_types';
+import {preventDoubleTap} from '../../../../app/utils/tap';
 
 export default class MarkdownTableImage extends React.PureComponent {
     static propTypes = {

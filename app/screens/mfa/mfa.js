@@ -17,14 +17,14 @@ import Button from 'react-native-button';
 
 import {RequestStatus} from 'mattermost-redux/constants';
 
-import ErrorText from 'app/components/error_text';
-import FormattedText from 'app/components/formatted_text';
-import StatusBar from 'app/components/status_bar';
-import TextInputWithLocalizedPlaceholder from 'app/components/text_input_with_localized_placeholder';
-import {GlobalStyles} from 'app/styles';
-import {preventDoubleTap} from 'app/utils/tap';
-import {t} from 'app/utils/i18n';
-import {setMfaPreflightDone} from 'app/utils/security';
+import ErrorText from '../../../app/components/error_text';
+import FormattedText from '../../../app/components/formatted_text';
+import StatusBar from '../../../app/components/status_bar';
+import TextInputWithLocalizedPlaceholder from '../../../app/components/text_input_with_localized_placeholder';
+import {GlobalStyles} from '../../../app/styles';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {t} from '../../../app/utils/i18n';
+import {setMfaPreflightDone} from '../../../app/utils/security';
 
 export default class Mfa extends PureComponent {
     static propTypes = {

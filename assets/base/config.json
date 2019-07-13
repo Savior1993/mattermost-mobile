@@ -1,6 +1,6 @@
 {
     "DefaultServerUrl": "",
-    "TestServerUrl": "http://localhost:8065",
+    "TestServerUrl": "http://localhost:8081",
     "DefaultTheme": "default",
     "ShowErrorsList": false,
     "MinServerVersion": "4.0.0",

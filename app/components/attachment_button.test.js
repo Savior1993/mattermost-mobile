@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import Preferences from 'mattermost-redux/constants/preferences';
 
-import {VALID_MIME_TYPES} from 'app/screens/edit_profile/edit_profile';
+import {VALID_MIME_TYPES} from '../../app/screens/edit_profile/edit_profile';
 import AttachmentButton from './attachment_button';
 
 jest.mock('react-intl');

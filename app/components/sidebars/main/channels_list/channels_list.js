@@ -10,9 +10,9 @@ import {
 import {intlShape} from 'react-intl';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
-import SearchBar from 'app/components/search_bar';
-import {ViewTypes} from 'app/constants';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import SearchBar from '../../../../../app/components/search_bar';
+import {ViewTypes} from '../../../../../app/constants';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../../app/utils/theme';
 
 import List from './list';
 import SwitchTeamsButton from './switch_teams_button';

@@ -12,11 +12,11 @@ import {
 } from 'react-native';
 import DeviceInfo from 'react-native-device-info';
 
-import FormattedText from 'app/components/formatted_text';
-import StatusBar from 'app/components/status_bar';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
+import FormattedText from '../../../app/components/formatted_text';
+import StatusBar from '../../../app/components/status_bar';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../app/utils/theme';
 
-import AppIcon from 'app/components/app_icon';
+import AppIcon from '../../../app/components/app_icon';
 import Config from 'assets/config';
 
 const MATTERMOST_BUNDLE_IDS = ['com.mattermost.rnbeta', 'com.mattermost.rn'];

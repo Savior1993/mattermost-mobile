@@ -10,8 +10,8 @@ import {
 } from 'react-native';
 import AwesomeIcon from 'react-native-vector-icons/FontAwesome';
 
-import {preventDoubleTap} from 'app/utils/tap';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import {preventDoubleTap} from '../../../../../app/utils/tap';
+import {makeStyleSheetFromTheme} from '../../../../../app/utils/theme';
 
 export default class ChannelSearchButton extends PureComponent {
     static propTypes = {

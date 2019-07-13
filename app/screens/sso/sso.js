@@ -16,11 +16,11 @@ import urlParse from 'url-parse';
 
 import {Client4} from 'mattermost-redux/client';
 
-import {ViewTypes} from 'app/constants';
-import Loading from 'app/components/loading';
-import StatusBar from 'app/components/status_bar';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import tracker from 'app/utils/time_tracker';
+import {ViewTypes} from '../../../app/constants';
+import Loading from '../../../app/components/loading';
+import StatusBar from '../../../app/components/status_bar';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
+import tracker from '../../../app/utils/time_tracker';
 
 const HEADERS = {
     'X-Mobile-App': 'mattermost',

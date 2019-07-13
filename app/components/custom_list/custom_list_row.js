@@ -9,8 +9,8 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-import ConditionalTouchable from 'app/components/conditional_touchable';
-import CustomPropTypes from 'app/constants/custom_prop_types';
+import ConditionalTouchable from '../../../app/components/conditional_touchable';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
 
 export default class CustomListRow extends React.PureComponent {
     static propTypes = {

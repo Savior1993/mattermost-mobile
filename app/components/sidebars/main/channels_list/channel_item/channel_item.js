@@ -14,10 +14,10 @@ import {
 } from 'react-native';
 import {intlShape} from 'react-intl';
 
-import Badge from 'app/components/badge';
-import ChannelIcon from 'app/components/channel_icon';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import Badge from '../../../../../../app/components/badge';
+import ChannelIcon from '../../../../../../app/components/channel_icon';
+import {preventDoubleTap} from '../../../../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../../../app/utils/theme';
 
 const {View: AnimatedView} = Animated;
 

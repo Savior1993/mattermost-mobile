@@ -8,14 +8,14 @@ import {FlatList, StyleSheet} from 'react-native';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 import * as PostListUtils from 'mattermost-redux/utils/post_list';
 
-import CombinedUserActivityPost from 'app/components/combined_user_activity_post';
-import Post from 'app/components/post';
-import {DeepLinkTypes, ListTypes} from 'app/constants';
-import mattermostManaged from 'app/mattermost_managed';
-import {makeExtraData} from 'app/utils/list_view';
-import {changeOpacity} from 'app/utils/theme';
-import {matchDeepLink} from 'app/utils/url';
-import telemetry from 'app/telemetry';
+import CombinedUserActivityPost from '../../../app/components/combined_user_activity_post';
+import Post from '../../../app/components/post';
+import {DeepLinkTypes, ListTypes} from '../../../app/constants';
+import mattermostManaged from '../../../app/mattermost_managed';
+import {makeExtraData} from '../../../app/utils/list_view';
+import {changeOpacity} from '../../../app/utils/theme';
+import {matchDeepLink} from '../../../app/utils/url';
+import telemetry from '../../../app/telemetry';
 
 import DateHeader from './date_header';
 import NewMessagesDivider from './new_messages_divider';

@@ -14,18 +14,18 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 import {Posts} from 'mattermost-redux/constants';
 
-import CombinedSystemMessage from 'app/components/combined_system_message';
-import FormattedText from 'app/components/formatted_text';
-import Markdown from 'app/components/markdown';
-import MarkdownEmoji from 'app/components/markdown/markdown_emoji';
-import ShowMoreButton from 'app/components/show_more_button';
+import CombinedSystemMessage from '../../../app/components/combined_system_message';
+import FormattedText from '../../../app/components/formatted_text';
+import Markdown from '../../../app/components/markdown';
+import MarkdownEmoji from '../../../app/components/markdown/markdown_emoji';
+import ShowMoreButton from '../../../app/components/show_more_button';
 
-import {emptyFunction} from 'app/utils/general';
-import {getMarkdownTextStyles, getMarkdownBlockStyles} from 'app/utils/markdown';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {emptyFunction} from '../../../app/utils/general';
+import {getMarkdownTextStyles, getMarkdownBlockStyles} from '../../../app/utils/markdown';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
-import telemetry from 'app/telemetry';
+import telemetry from '../../../app/telemetry';
 
 let FileAttachmentList;
 let PostAddChannelMember;
@@ -215,7 +215,7 @@ export default class PostBody extends PureComponent {
         const {onPress, postProps} = this.props;
 
         if (!PostAddChannelMember) {
-            PostAddChannelMember = require('app/components/post_add_channel_member').default;
+            PostAddChannelMember = require('../../../app/components/post_add_channel_member').default;
         }
 
         let userIds = postProps.add_channel_member.not_in_channel_user_ids;
@@ -258,7 +258,7 @@ export default class PostBody extends PureComponent {
         let attachments;
         if (fileIds.length) {
             if (!FileAttachmentList) {
-                FileAttachmentList = require('app/components/file_attachment_list').default;
+                FileAttachmentList = require('../../../app/components/file_attachment_list').default;
             }
 
             attachments = (
@@ -297,7 +297,7 @@ export default class PostBody extends PureComponent {
         }
 
         if (!PostBodyAdditionalContent) {
-            PostBodyAdditionalContent = require('app/components/post_body_additional_content').default;
+            PostBodyAdditionalContent = require('../../../app/components/post_body_additional_content').default;
         }
 
         return (
@@ -331,7 +331,7 @@ export default class PostBody extends PureComponent {
         }
 
         if (!Reactions) {
-            Reactions = require('app/components/reactions').default;
+            Reactions = require('../../../app/components/reactions').default;
         }
 
         return (

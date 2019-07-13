@@ -4,7 +4,7 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
-import {showSearchModal} from 'app/actions/views/search';
+import {showSearchModal} from '../../../../app/actions/views/search';
 
 import Hashtag from './hashtag';
 

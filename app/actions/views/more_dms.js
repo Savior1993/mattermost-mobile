@@ -4,7 +4,7 @@
 import {getDirectChannelName} from 'mattermost-redux/utils/channel_utils';
 import {createDirectChannel, createGroupChannel} from 'mattermost-redux/actions/channels';
 import {getProfilesByIds, getStatusesByIds} from 'mattermost-redux/actions/users';
-import {handleSelectChannel, toggleDMChannel, toggleGMChannel} from 'app/actions/views/channel';
+import {handleSelectChannel, toggleDMChannel, toggleGMChannel} from '../../../app/actions/views/channel';
 
 export function makeDirectChannel(otherUserId, switchToChannel = true) {
     return async (dispatch, getState) => {

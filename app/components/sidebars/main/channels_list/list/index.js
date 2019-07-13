@@ -17,7 +17,7 @@ import {memoizeResult} from 'mattermost-redux/utils/helpers';
 import {isAdmin as checkIsAdmin, isSystemAdmin as checkIsSystemAdmin} from 'mattermost-redux/utils/user_utils';
 import {getConfig, getLicense} from 'mattermost-redux/selectors/entities/general';
 
-import {DeviceTypes, ViewTypes} from 'app/constants';
+import {DeviceTypes, ViewTypes} from '../../../../../../app/constants';
 
 import List from './list';
 

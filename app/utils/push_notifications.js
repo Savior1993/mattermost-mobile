@@ -10,18 +10,18 @@ import {Client4} from 'mattermost-redux/client';
 import {General} from 'mattermost-redux/constants';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import {markChannelViewedAndRead, retryGetPostsAction} from 'app/actions/views/channel';
+import {markChannelViewedAndRead, retryGetPostsAction} from '../../app/actions/views/channel';
 import {
     createPostForNotificationReply,
     loadFromPushNotification,
-} from 'app/actions/views/root';
-import {ViewTypes} from 'app/constants';
-import {getLocalizedMessage} from 'app/i18n';
-import {getCurrentServerUrl, getAppCredentials} from 'app/init/credentials';
-import PushNotifications from 'app/push_notifications';
-import {getCurrentLocale} from 'app/selectors/i18n';
-import ephemeralStore from 'app/store/ephemeral_store';
-import {t} from 'app/utils/i18n';
+} from '../../app/actions/views/root';
+import {ViewTypes} from '../../app/constants';
+import {getLocalizedMessage} from '../../app/i18n';
+import {getCurrentServerUrl, getAppCredentials} from '../../app/init/credentials';
+import PushNotifications from '../../app/push_notifications';
+import {getCurrentLocale} from '../../app/selectors/i18n';
+import ephemeralStore from '../../app/store/ephemeral_store';
+import {t} from '../../app/utils/i18n';
 
 class PushNotificationUtils {
     constructor() {

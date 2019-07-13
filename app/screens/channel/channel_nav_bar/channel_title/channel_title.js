@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import {makeStyleSheetFromTheme} from '../../../../../app/utils/theme';
 
 export default class ChannelTitle extends PureComponent {
     static propTypes = {

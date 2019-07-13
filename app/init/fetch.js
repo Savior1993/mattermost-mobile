@@ -9,11 +9,11 @@ import urlParse from 'url-parse';
 import {Client4} from 'mattermost-redux/client';
 import {ClientError} from 'mattermost-redux/client/client4';
 
-import mattermostBucket from 'app/mattermost_bucket';
-import mattermostManaged from 'app/mattermost_managed';
+import mattermostBucket from '../../app/mattermost_bucket';
+import mattermostManaged from '../../app/mattermost_managed';
 import LocalConfig from 'assets/config';
 
-import {t} from 'app/utils/i18n';
+import {t} from '../../app/utils/i18n';
 
 /* eslint-disable no-throw-literal */
 

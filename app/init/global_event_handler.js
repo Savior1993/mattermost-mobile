@@ -12,16 +12,16 @@ import {Client4} from 'mattermost-redux/client';
 import {General} from 'mattermost-redux/constants';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import {setDeviceDimensions, setDeviceOrientation, setDeviceAsTablet, setStatusBarHeight} from 'app/actions/device';
-import {selectDefaultChannel} from 'app/actions/views/channel';
-import {loadConfigAndLicense, setDeepLinkURL, startDataCleanup} from 'app/actions/views/root';
-import {NavigationTypes} from 'app/constants';
-import {getTranslations} from 'app/i18n';
-import mattermostManaged from 'app/mattermost_managed';
-import PushNotifications from 'app/push_notifications';
-import {getCurrentLocale} from 'app/selectors/i18n';
-import {t} from 'app/utils/i18n';
-import {deleteFileCache} from 'app/utils/file';
+import {setDeviceDimensions, setDeviceOrientation, setDeviceAsTablet, setStatusBarHeight} from '../../app/actions/device';
+import {selectDefaultChannel} from '../../app/actions/views/channel';
+import {loadConfigAndLicense, setDeepLinkURL, startDataCleanup} from '../../app/actions/views/root';
+import {NavigationTypes} from '../../app/constants';
+import {getTranslations} from '../../app/i18n';
+import mattermostManaged from '../../app/mattermost_managed';
+import PushNotifications from '../../app/push_notifications';
+import {getCurrentLocale} from '../../app/selectors/i18n';
+import {t} from '../../app/utils/i18n';
+import {deleteFileCache} from '../../app/utils/file';
 
 import LocalConfig from 'assets/config';
 
@@ -84,14 +84,14 @@ class GlobalEventHandler {
             );
         }
 
-        this.JavascriptAndNativeErrorHandler = require('app/utils/error_handling').default;
+        this.JavascriptAndNativeErrorHandler = require('../../app/utils/error_handling').default;
         this.JavascriptAndNativeErrorHandler.initializeErrorHandling(this.store);
 
         mattermostManaged.addEventListener('managedConfigDidChange', this.onManagedConfigurationChange);
     };
 
     configureAnalytics = (config) => {
-        const initAnalytics = require('app/utils/segment').init;
+        const initAnalytics = require('../../app/utils/segment').init;
 
         if (!__DEV__ && config && config.DiagnosticsEnabled === 'true' && config.DiagnosticId && LocalConfig.SegmentApiKey) {
             initAnalytics(config);

@@ -3,7 +3,7 @@
 
 import {networkStatusChangedAction} from 'redux-offline';
 
-import {DeviceTypes} from 'app/constants';
+import {DeviceTypes} from '../../../app/constants';
 
 export function connection(isOnline) {
     return async (dispatch) => {

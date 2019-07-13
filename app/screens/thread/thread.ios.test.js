@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import Preferences from 'mattermost-redux/constants/preferences';
 import {General, RequestStatus} from 'mattermost-redux/constants';
-import PostList from 'app/components/post_list';
+import PostList from '../../../app/components/post_list';
 
 import ThreadIOS from './thread.ios';
 

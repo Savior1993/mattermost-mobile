@@ -6,13 +6,13 @@ import {Text, View} from 'react-native';
 import PropTypes from 'prop-types';
 import {intlShape} from 'react-intl';
 
-import StatusBar from 'app/components/status_bar';
-import Section from 'app/screens/settings/section';
-import SectionItem from 'app/screens/settings/section_item';
+import StatusBar from '../../../app/components/status_bar';
+import Section from '../../../app/screens/settings/section';
+import SectionItem from '../../../app/screens/settings/section_item';
 import ThemeTile from './theme_tile';
-import FormattedText from 'app/components/formatted_text';
+import FormattedText from '../../../app/components/formatted_text';
 
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../app/utils/theme';
 import Preferences from 'mattermost-redux/constants/preferences';
 
 const thumbnailImages = {

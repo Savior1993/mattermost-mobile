@@ -6,9 +6,9 @@ import PropTypes from 'prop-types';
 
 import {General} from 'mattermost-redux/constants';
 
-import FormattedText from 'app/components/formatted_text';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import FormattedText from '../../../../../app/components/formatted_text';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../../app/utils/theme';
+import {t} from '../../../../../app/utils/i18n';
 
 export default class UserInfo extends PureComponent {
     static propTypes = {

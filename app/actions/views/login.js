@@ -10,11 +10,11 @@ import {getConfig, getLicense} from 'mattermost-redux/selectors/entities/general
 import {isTimezoneEnabled} from 'mattermost-redux/selectors/entities/timezone';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
-import {ViewTypes} from 'app/constants';
-import {setAppCredentials} from 'app/init/credentials';
-import PushNotifications from 'app/push_notifications';
-import {getDeviceTimezone} from 'app/utils/timezone';
-import {setCSRFFromCookie} from 'app/utils/security';
+import {ViewTypes} from '../../../app/constants';
+import {setAppCredentials} from '../../../app/init/credentials';
+import PushNotifications from '../../../app/push_notifications';
+import {getDeviceTimezone} from '../../../app/utils/timezone';
+import {setCSRFFromCookie} from '../../../app/utils/security';
 
 export function handleLoginIdChanged(loginId) {
     return async (dispatch, getState) => {

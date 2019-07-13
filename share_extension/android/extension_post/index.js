@@ -10,7 +10,7 @@ import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
 import {getTeamChannels} from 'share_extension/android/actions';
-import {getAllowedServerMaxFileSize} from 'app/utils/file';
+import {getAllowedServerMaxFileSize} from '../../../app/utils/file';
 
 import ExtensionPost from './extension_post';
 

@@ -15,11 +15,11 @@ import {
     loadChannelsIfNecessary,
     loadProfilesAndTeamMembersForDMSidebar,
     selectInitialChannel,
-} from 'app/actions/views/channel';
-import {connection} from 'app/actions/device';
-import {recordLoadTime} from 'app/actions/views/root';
-import {selectDefaultTeam} from 'app/actions/views/select_team';
-import {isLandscape} from 'app/selectors/device';
+} from '../../../app/actions/views/channel';
+import {connection} from '../../../app/actions/device';
+import {recordLoadTime} from '../../../app/actions/views/root';
+import {selectDefaultTeam} from '../../../app/actions/views/select_team';
+import {isLandscape} from '../../../app/selectors/device';
 
 import Channel from './channel';
 

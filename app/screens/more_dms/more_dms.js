@@ -12,17 +12,17 @@ import EventEmitter from 'mattermost-redux/utils/event_emitter';
 import {getGroupDisplayNameFromUserIds} from 'mattermost-redux/utils/channel_utils';
 import {displayUsername, filterProfilesMatchingTerm} from 'mattermost-redux/utils/user_utils';
 
-import CustomList, {FLATLIST, SECTIONLIST} from 'app/components/custom_list';
-import UserListRow from 'app/components/custom_list/user_list_row';
-import FormattedText from 'app/components/formatted_text';
-import KeyboardLayout from 'app/components/layout/keyboard_layout';
-import Loading from 'app/components/loading';
-import SearchBar from 'app/components/search_bar';
-import StatusBar from 'app/components/status_bar';
-import {alertErrorWithFallback} from 'app/utils/general';
-import {createProfilesSections, loadingText} from 'app/utils/member_list';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import CustomList, {FLATLIST, SECTIONLIST} from '../../../app/components/custom_list';
+import UserListRow from '../../../app/components/custom_list/user_list_row';
+import FormattedText from '../../../app/components/formatted_text';
+import KeyboardLayout from '../../../app/components/layout/keyboard_layout';
+import Loading from '../../../app/components/loading';
+import SearchBar from '../../../app/components/search_bar';
+import StatusBar from '../../../app/components/status_bar';
+import {alertErrorWithFallback} from '../../../app/utils/general';
+import {createProfilesSections, loadingText} from '../../../app/utils/member_list';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
 
 import SelectedUsers from './selected_users';
 

@@ -4,7 +4,7 @@
 import {addReaction as serviceAddReaction} from 'mattermost-redux/actions/posts';
 import {getPostIdsInCurrentChannel, makeGetPostIdsForThread} from 'mattermost-redux/selectors/entities/posts';
 
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
 const getPostIdsForThread = makeGetPostIdsForThread();
 

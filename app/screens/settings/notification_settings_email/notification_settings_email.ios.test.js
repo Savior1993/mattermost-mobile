@@ -6,9 +6,9 @@ import {shallow} from 'enzyme';
 
 import Preferences from 'mattermost-redux/constants/preferences';
 
-import {emptyFunction} from 'app/utils/general';
+import {emptyFunction} from '../../../../app/utils/general';
 
-import SectionItem from 'app/screens/settings/section_item';
+import SectionItem from '../../../../app/screens/settings/section_item';
 
 import NotificationSettingsEmailIos from './notification_settings_email.ios.js';
 
@@ -18,8 +18,8 @@ jest.mock('Platform', () => {
     return Platform;
 });
 
-jest.mock('app/utils/theme', () => {
-    const original = require.requireActual('app/utils/theme');
+jest.mock('../../../../app/utils/theme', () => {
+    const original = require.requireActual('../../../../app/utils/theme');
     return {
         ...original,
         changeOpacity: jest.fn(),

@@ -12,12 +12,12 @@ import {
 } from 'react-native';
 import DeviceInfo from 'react-native-device-info';
 
-import SettingsItem from 'app/screens/settings/settings_item';
-import StatusBar from 'app/components/status_bar';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
-import {isValidUrl} from 'app/utils/url';
-import {t} from 'app/utils/i18n';
+import SettingsItem from '../../../../app/screens/settings/settings_item';
+import StatusBar from '../../../../app/components/status_bar';
+import {preventDoubleTap} from '../../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../../app/utils/theme';
+import {isValidUrl} from '../../../../app/utils/url';
+import {t} from '../../../../app/utils/i18n';
 
 import LocalConfig from 'assets/config';
 

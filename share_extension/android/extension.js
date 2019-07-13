@@ -5,7 +5,7 @@ import React, {PureComponent} from 'react';
 import {Alert, NativeModules} from 'react-native';
 import {intlShape} from 'react-intl';
 
-import {captureException, initializeSentry, LOGGER_EXTENSION} from 'app/utils/sentry';
+import {captureException, initializeSentry, LOGGER_EXTENSION} from '../../app/utils/sentry';
 
 import Navigation from './navigation';
 

@@ -19,8 +19,8 @@ import Permissions from 'react-native-permissions';
 
 import {lookupMimeType} from 'mattermost-redux/utils/file_utils';
 
-import {PermissionTypes} from 'app/constants';
-import {changeOpacity} from 'app/utils/theme';
+import {PermissionTypes} from '../../app/constants';
+import {changeOpacity} from '../../app/utils/theme';
 import {t} from 'app/utils/i18n';
 
 const ShareExtension = NativeModules.MattermostShare;

@@ -4,7 +4,7 @@
 import {batchActions} from 'redux-batched-actions';
 import {GeneralTypes} from 'mattermost-redux/action_types';
 
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
 export function handleServerUrlChanged(serverUrl) {
     return async (dispatch, getState) => {

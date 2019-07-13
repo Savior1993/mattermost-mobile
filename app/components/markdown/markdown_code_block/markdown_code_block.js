@@ -12,13 +12,13 @@ import {
     View,
 } from 'react-native';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
-import FormattedText from 'app/components/formatted_text';
-import BottomSheet from 'app/utils/bottom_sheet';
-import {getDisplayNameForLanguage} from 'app/utils/markdown';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import mattermostManaged from 'app/mattermost_managed';
+import CustomPropTypes from '../../../../app/constants/custom_prop_types';
+import FormattedText from '../../../../app/components/formatted_text';
+import BottomSheet from '../../../../app/utils/bottom_sheet';
+import {getDisplayNameForLanguage} from '../../../../app/utils/markdown';
+import {preventDoubleTap} from '../../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
+import mattermostManaged from '../../../../app/mattermost_managed';
 
 const MAX_LINES = 4;
 

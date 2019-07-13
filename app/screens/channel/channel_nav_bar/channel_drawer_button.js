@@ -11,12 +11,12 @@ import {
 
 import Icon from 'react-native-vector-icons/Ionicons';
 
-import Badge from 'app/components/badge';
+import Badge from '../../../../app/components/badge';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
-import {preventDoubleTap} from 'app/utils/tap';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import {preventDoubleTap} from '../../../../app/utils/tap';
+import {makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
-import telemetry from 'app/telemetry';
+import telemetry from '../../../../app/telemetry';
 
 import {getUnreadsInCurrentTeam} from 'mattermost-redux/selectors/entities/channels';
 import {getCurrentTeamId, getTeamMemberships} from 'mattermost-redux/selectors/entities/teams';

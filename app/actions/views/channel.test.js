@@ -4,7 +4,7 @@
 import configureStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 
-import {handleSelectChannelByName} from 'app/actions/views/channel';
+import {handleSelectChannelByName} from '../../../app/actions/views/channel';
 
 jest.mock('mattermost-redux/selectors/entities/channels', () => ({
     getChannel: () => ({data: 'received-channel-id'}),

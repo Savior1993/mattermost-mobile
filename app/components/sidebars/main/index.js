@@ -9,10 +9,10 @@ import {getTeams} from 'mattermost-redux/actions/teams';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {getCurrentTeamId, getMyTeamsCount} from 'mattermost-redux/selectors/entities/teams';
 
-import {setChannelDisplayName, setChannelLoading} from 'app/actions/views/channel';
-import {makeDirectChannel} from 'app/actions/views/more_dms';
-import {isLandscape, getDimensions} from 'app/selectors/device';
-import telemetry from 'app/telemetry';
+import {setChannelDisplayName, setChannelLoading} from '../../../../app/actions/views/channel';
+import {makeDirectChannel} from '../../../../app/actions/views/more_dms';
+import {isLandscape, getDimensions} from '../../../../app/selectors/device';
+import telemetry from '../../../../app/telemetry';
 
 import MainSidebar from './main_sidebar.js';
 

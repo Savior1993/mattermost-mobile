@@ -9,8 +9,8 @@ import {Platform} from 'react-native';
 import {Client4} from 'mattermost-redux/client';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import {NavigationTypes, ViewTypes} from 'app/constants';
-import {getTranslations} from 'app/i18n';
+import {NavigationTypes, ViewTypes} from '../../../app/constants';
+import {getTranslations} from '../../../app/i18n';
 
 export default class Root extends PureComponent {
     static propTypes = {

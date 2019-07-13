@@ -5,13 +5,13 @@
 
 import assert from 'assert';
 
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../app/constants';
 import {
     cleanUpPostsInChannel,
     cleanUpState,
     getAllFromPostsInChannel,
     messageRetention,
-} from 'app/store/middleware';
+} from '../../app/store/middleware';
 
 describe('messageRetention', () => {
     describe('should chain the same incoming action type', () => {

@@ -11,10 +11,10 @@ import {
 
 import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
-import ProfilePicture from 'app/components/profile_picture';
-import BotTag from 'app/components/bot_tag';
-import {makeStyleSheetFromTheme, changeOpacity} from 'app/utils/theme';
-import CustomListRow from 'app/components/custom_list/custom_list_row';
+import ProfilePicture from '../../../../app/components/profile_picture';
+import BotTag from '../../../../app/components/bot_tag';
+import {makeStyleSheetFromTheme, changeOpacity} from '../../../../app/utils/theme';
+import CustomListRow from '../../../../app/components/custom_list/custom_list_row';
 
 export default class UserListRow extends React.PureComponent {
     static propTypes = {

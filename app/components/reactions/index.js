@@ -13,7 +13,7 @@ import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {getChannel} from 'mattermost-redux/selectors/entities/channels';
 
-import {addReaction} from 'app/actions/views/emoji';
+import {addReaction} from '../../../app/actions/views/emoji';
 
 import Reactions from './reactions';
 

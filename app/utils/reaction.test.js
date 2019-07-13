@@ -6,9 +6,9 @@ import {
     getReactionsByName,
     getSortedReactionsForHeader,
     getUniqueUserIds,
-} from 'app/utils/reaction';
+} from '../../app/utils/reaction';
 
-import {ALL_EMOJIS} from 'app/constants/emoji';
+import {ALL_EMOJIS} from '../../app/constants/emoji';
 
 describe('getMissingUserIds', () => {
     const testCases = [{

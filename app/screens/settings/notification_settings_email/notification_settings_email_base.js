@@ -8,8 +8,8 @@ import PropTypes from 'prop-types';
 import {Preferences} from 'mattermost-redux/constants';
 import {getEmailInterval} from 'mattermost-redux/utils/notify_props';
 
-import {getNotificationProps} from 'app/utils/notify_props';
-import {setNavigatorStyles} from 'app/utils/theme';
+import {getNotificationProps} from '../../../../app/utils/notify_props';
+import {setNavigatorStyles} from '../../../../app/utils/theme';
 
 export default class NotificationSettingsEmailBase extends PureComponent {
     static propTypes = {

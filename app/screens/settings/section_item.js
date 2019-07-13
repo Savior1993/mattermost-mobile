@@ -10,8 +10,8 @@ import {
 } from 'react-native';
 import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
 
-import CheckMark from 'app/components/checkmark';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import CheckMark from '../../../app/components/checkmark';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 const ActionTypes = {
     ARROW: 'arrow',

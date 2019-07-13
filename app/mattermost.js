@@ -7,17 +7,17 @@ import {Provider} from 'react-redux';
 
 import {loadMe} from 'mattermost-redux/actions/users';
 
-import {setDeepLinkURL} from 'app/actions/views/root';
-import initialState from 'app/initial_state';
-import {getAppCredentials} from 'app/init/credentials';
-import emmProvider from 'app/init/emm_provider';
-import 'app/init/fetch';
-import globalEventHandler from 'app/init/global_event_handler';
-import {registerScreens} from 'app/screens';
-import configureStore from 'app/store';
-import ephemeralStore from 'app/store/ephemeral_store';
-import telemetry from 'app/telemetry';
-import pushNotificationsUtils from 'app/utils/push_notifications';
+import {setDeepLinkURL} from '../app/actions/views/root';
+import initialState from '../app/initial_state';
+import {getAppCredentials} from '../app/init/credentials';
+import emmProvider from '../app/init/emm_provider';
+import '../app/init/fetch';
+import globalEventHandler from '../app/init/global_event_handler';
+import {registerScreens} from '../app/screens';
+import configureStore from '../app/store';
+import ephemeralStore from '../app/store/ephemeral_store';
+import telemetry from '../app/telemetry';
+import pushNotificationsUtils from '../app/utils/push_notifications';
 
 const {MattermostShare} = NativeModules;
 const startedSharedExtension = Platform.OS === 'android' && MattermostShare.isOpened;

@@ -12,15 +12,15 @@ import {
 } from 'react-native';
 import {intlShape} from 'react-intl';
 
-import PostBody from 'app/components/post_body';
-import PostHeader from 'app/components/post_header';
-import PostPreHeader from 'app/components/post_header/post_pre_header';
-import PostProfilePicture from 'app/components/post_profile_picture';
-import {NavigationTypes} from 'app/constants';
-import {fromAutoResponder} from 'app/utils/general';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import PostBody from '../../../app/components/post_body';
+import PostHeader from '../../../app/components/post_header';
+import PostPreHeader from '../../../app/components/post_header/post_pre_header';
+import PostProfilePicture from '../../../app/components/post_profile_picture';
+import {NavigationTypes} from '../../../app/constants';
+import {fromAutoResponder} from '../../../app/utils/general';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
 
 import {Posts} from 'mattermost-redux/constants';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';

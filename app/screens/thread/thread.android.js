@@ -3,14 +3,14 @@
 
 import React from 'react';
 
-import {THREAD} from 'app/constants/screen';
+import {THREAD} from '../../../app/constants/screen';
 
-import Loading from 'app/components/loading';
-import KeyboardLayout from 'app/components/layout/keyboard_layout';
-import PostList from 'app/components/post_list';
-import PostTextbox from 'app/components/post_textbox';
-import SafeAreaView from 'app/components/safe_area_view';
-import StatusBar from 'app/components/status_bar';
+import Loading from '../../../app/components/loading';
+import KeyboardLayout from '../../../app/components/layout/keyboard_layout';
+import PostList from '../../../app/components/post_list';
+import PostTextbox from '../../../app/components/post_textbox';
+import SafeAreaView from '../../../app/components/safe_area_view';
+import StatusBar from '../../../app/components/status_bar';
 
 import ThreadBase from './thread_base';
 

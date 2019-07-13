@@ -14,12 +14,12 @@ import {
 import {intlShape} from 'react-intl';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
-import FormattedText from 'app/components/formatted_text';
-import {ListTypes, ViewTypes} from 'app/constants';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import tracker from 'app/utils/time_tracker';
-import telemetry from 'app/telemetry';
+import FormattedText from '../../../../../app/components/formatted_text';
+import {ListTypes, ViewTypes} from '../../../../../app/constants';
+import {preventDoubleTap} from '../../../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../../app/utils/theme';
+import tracker from '../../../../../app/utils/time_tracker';
+import telemetry from '../../../../../app/telemetry';
 
 import TeamsListItem from './teams_list_item';
 

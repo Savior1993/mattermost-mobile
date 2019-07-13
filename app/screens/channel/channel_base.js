@@ -14,17 +14,17 @@ import {
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import EmptyToolbar from 'app/components/start/empty_toolbar';
-import InteractiveDialogController from 'app/components/interactive_dialog_controller';
-import MainSidebar from 'app/components/sidebars/main';
-import SafeAreaView from 'app/components/safe_area_view';
-import SettingsSidebar from 'app/components/sidebars/settings';
+import EmptyToolbar from '../../../app/components/start/empty_toolbar';
+import InteractiveDialogController from '../../../app/components/interactive_dialog_controller';
+import MainSidebar from '../../../app/components/sidebars/main';
+import SafeAreaView from '../../../app/components/safe_area_view';
+import SettingsSidebar from '../../../app/components/sidebars/settings';
 
-import {preventDoubleTap} from 'app/utils/tap';
-import PushNotifications from 'app/push_notifications';
-import ephemeralStore from 'app/store/ephemeral_store';
-import tracker from 'app/utils/time_tracker';
-import telemetry from 'app/telemetry';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import PushNotifications from '../../../app/push_notifications';
+import ephemeralStore from '../../../app/store/ephemeral_store';
+import tracker from '../../../app/utils/time_tracker';
+import telemetry from '../../../app/telemetry';
 
 import LocalConfig from 'assets/config';
 
@@ -69,7 +69,7 @@ export default class ChannelBase extends PureComponent {
         });
 
         if (LocalConfig.EnableMobileClientUpgrade && !ClientUpgradeListener) {
-            ClientUpgradeListener = require('app/components/client_upgrade_listener').default;
+            ClientUpgradeListener = require('../../../app/components/client_upgrade_listener').default;
         }
     }
 
@@ -120,7 +120,7 @@ export default class ChannelBase extends PureComponent {
         }
 
         if (LocalConfig.EnableMobileClientUpgrade && !ClientUpgradeListener) {
-            ClientUpgradeListener = require('app/components/client_upgrade_listener').default;
+            ClientUpgradeListener = require('../../../app/components/client_upgrade_listener').default;
         }
     }
 
@@ -272,7 +272,7 @@ export default class ChannelBase extends PureComponent {
 
         if (!currentChannelId) {
             if (channelsRequestFailed) {
-                const PostListRetry = require('app/components/post_list_retry').default;
+                const PostListRetry = require('../../../app/components/post_list_retry').default;
                 return (
                     <PostListRetry
                         retry={this.retryLoadChannels}
@@ -281,7 +281,7 @@ export default class ChannelBase extends PureComponent {
                 );
             }
 
-            const Loading = require('app/components/channel_loader').default;
+            const Loading = require('../../../app/components/channel_loader').default;
             return (
                 <SafeAreaView navigator={navigator}>
                     <View style={style.flex}>

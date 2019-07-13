@@ -5,9 +5,9 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {StyleSheet} from 'react-native';
 
-import {changeOpacity} from 'app/utils/theme';
+import {changeOpacity} from '../../../../../app/utils/theme';
 
-import Swiper from 'app/components/swiper';
+import Swiper from '../../../../../app/components/swiper';
 
 export default class DrawerSwiper extends Component {
     static propTypes = {

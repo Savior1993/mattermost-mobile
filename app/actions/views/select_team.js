@@ -7,8 +7,8 @@ import {RequestStatus} from 'mattermost-redux/constants';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import {NavigationTypes} from 'app/constants';
-import {selectFirstAvailableTeam} from 'app/utils/teams';
+import {NavigationTypes} from '../../../app/constants';
+import {selectFirstAvailableTeam} from '../../../app/utils/teams';
 
 export function handleTeamChange(teamId) {
     return async (dispatch, getState) => {

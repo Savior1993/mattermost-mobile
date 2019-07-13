@@ -6,9 +6,9 @@ import * as KeyChain from 'react-native-keychain';
 
 import {Client4} from 'mattermost-redux/client';
 
-import mattermostManaged from 'app/mattermost_managed';
-import ephemeralStore from 'app/store/ephemeral_store';
-import {setCSRFFromCookie} from 'app/utils/security';
+import mattermostManaged from '../../app/mattermost_managed';
+import ephemeralStore from '../../app/store/ephemeral_store';
+import {setCSRFFromCookie} from '../../app/utils/security';
 
 const CURRENT_SERVER = '@currentServerUrl';
 

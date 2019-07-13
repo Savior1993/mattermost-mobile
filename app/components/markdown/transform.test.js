@@ -11,7 +11,7 @@ import {
     highlightMentions,
     highlightTextNode,
     pullOutImages,
-} from 'app/components/markdown/transform';
+} from '../../../app/components/markdown/transform';
 
 /* eslint-disable no-console, no-underscore-dangle */
 

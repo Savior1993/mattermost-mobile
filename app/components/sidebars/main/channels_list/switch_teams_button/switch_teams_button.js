@@ -9,11 +9,11 @@ import {
 } from 'react-native';
 import AwesomeIcon from 'react-native-vector-icons/FontAwesome';
 
-import Badge from 'app/components/badge';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import Badge from '../../../../../../app/components/badge';
+import {preventDoubleTap} from '../../../../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../../../app/utils/theme';
 
-import TeamIcon from 'app/components/team_icon';
+import TeamIcon from '../../../../../../app/components/team_icon';
 
 export default class SwitchTeamsButton extends React.PureComponent {
     static propTypes = {

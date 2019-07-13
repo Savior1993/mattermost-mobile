@@ -2,10 +2,10 @@
 // See LICENSE.txt for license information.
 import RNFetchBlob from 'rn-fetch-blob';
 
-import ImageCacheManager, {getCacheFile} from 'app/utils/image_cache_manager';
-import {emptyFunction} from 'app/utils/general';
-import * as fileUtils from 'app/utils/file';
-import mattermostBucket from 'app/mattermost_bucket';
+import ImageCacheManager, {getCacheFile} from '../../app/utils/image_cache_manager';
+import {emptyFunction} from '../../app/utils/general';
+import * as fileUtils from '../../app/utils/file';
+import mattermostBucket from '../../app/mattermost_bucket';
 
 fileUtils.getExtensionFromMime = jest.fn();
 
@@ -108,7 +108,7 @@ describe('getCacheFile', () => {
 });
 
 describe('ImageCacheManager.cache', () => {
-    const imageCacheManagerUtils = require('app/utils/image_cache_manager');
+    const imageCacheManagerUtils = require('../../app/utils/image_cache_manager');
     imageCacheManagerUtils.isDownloading = jest.fn();
     RNFetchBlob.config.mockReturnValue(RNFetchBlob);
     mattermostBucket.getPreference = jest.fn().mockReturnValue({});

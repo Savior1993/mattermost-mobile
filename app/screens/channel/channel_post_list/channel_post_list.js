@@ -13,13 +13,13 @@ import {
 import {getLastPostIndex} from 'mattermost-redux/utils/post_list';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import AnnouncementBanner from 'app/components/announcement_banner';
-import PostList from 'app/components/post_list';
-import PostListRetry from 'app/components/post_list_retry';
-import RetryBarIndicator from 'app/components/retry_bar_indicator';
-import {ViewTypes} from 'app/constants';
-import tracker from 'app/utils/time_tracker';
-import telemetry from 'app/telemetry';
+import AnnouncementBanner from '../../../../app/components/announcement_banner';
+import PostList from '../../../../app/components/post_list';
+import PostListRetry from '../../../../app/components/post_list_retry';
+import RetryBarIndicator from '../../../../app/components/retry_bar_indicator';
+import {ViewTypes} from '../../../../app/constants';
+import tracker from '../../../../app/utils/time_tracker';
+import telemetry from '../../../../app/telemetry';
 
 let ChannelIntro = null;
 let LoadMorePosts = null;
@@ -162,7 +162,7 @@ export default class ChannelPostList extends PureComponent {
 
         if (this.props.loadMorePostsVisible) {
             if (!LoadMorePosts) {
-                LoadMorePosts = require('app/components/load_more_posts').default;
+                LoadMorePosts = require('../../../../app/components/load_more_posts').default;
             }
 
             return (
@@ -175,7 +175,7 @@ export default class ChannelPostList extends PureComponent {
         }
 
         if (!ChannelIntro) {
-            ChannelIntro = require('app/components/channel_intro').default;
+            ChannelIntro = require('../../../../app/components/channel_intro').default;
         }
 
         return (

@@ -26,16 +26,16 @@ import {Client4} from 'mattermost-redux/client';
 import {Preferences} from 'mattermost-redux/constants';
 import {getFormattedFileSize, lookupMimeType} from 'mattermost-redux/utils/file_utils';
 
-import Loading from 'app/components/loading';
-import PaperPlane from 'app/components/paper_plane';
-import {MAX_FILE_COUNT} from 'app/constants/post_textbox';
-import {getCurrentServerUrl, getAppCredentials} from 'app/init/credentials';
-import mattermostManaged from 'app/mattermost_managed';
-import {getExtensionFromMime} from 'app/utils/file';
-import {emptyFunction} from 'app/utils/general';
-import {setCSRFFromCookie} from 'app/utils/security';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import Loading from '../../../app/components/loading';
+import PaperPlane from '../../../app/components/paper_plane';
+import {MAX_FILE_COUNT} from '../../../app/constants/post_textbox';
+import {getCurrentServerUrl, getAppCredentials} from '../../../app/init/credentials';
+import mattermostManaged from '../../../app/mattermost_managed';
+import {getExtensionFromMime} from '../../../app/utils/file';
+import {emptyFunction} from '../../../app/utils/general';
+import {setCSRFFromCookie} from '../../../app/utils/security';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 import {
     ExcelSvg,

@@ -4,9 +4,9 @@
 import {Posts} from 'mattermost-redux/constants';
 import {doPostAction, receivedNewPost} from 'mattermost-redux/actions/posts';
 
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
-import {generateId} from 'app/utils/file';
+import {generateId} from '../../../app/utils/file';
 
 export function sendAddToChannelEphemeralPost(user, addedUsername, message, channelId, postRootId = '') {
     return async (dispatch) => {

@@ -7,9 +7,9 @@ import 'react-native-gesture-handler';
 
 import LocalConfig from 'assets/config';
 
-import telemetry from 'app/telemetry';
+import telemetry from './app/telemetry';
 
-import 'app/mattermost';
+import './app/mattermost';
 
 if (__DEV__) {
     YellowBox.ignoreWarnings([
@@ -47,7 +47,7 @@ const setFontFamily = () => {
 };
 
 if (Platform.OS === 'android') {
-    const ShareExtension = require('share_extension/android').default;
+    const ShareExtension = require('./share_extension/android').default;
     AppRegistry.registerComponent('MattermostShare', () => ShareExtension);
     setFontFamily();
 

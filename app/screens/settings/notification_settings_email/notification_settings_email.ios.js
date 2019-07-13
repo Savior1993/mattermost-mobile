@@ -10,13 +10,13 @@ import {
 
 import {Preferences} from 'mattermost-redux/constants';
 
-import FormattedText from 'app/components/formatted_text';
-import StatusBar from 'app/components/status_bar';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import FormattedText from '../../../../app/components/formatted_text';
+import StatusBar from '../../../../app/components/status_bar';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
+import {t} from '../../../../app/utils/i18n';
 
-import Section from 'app/screens/settings/section';
-import SectionItem from 'app/screens/settings/section_item';
+import Section from '../../../../app/screens/settings/section';
+import SectionItem from '../../../../app/screens/settings/section_item';
 
 import NotificationSettingsEmailBase from './notification_settings_email_base';
 

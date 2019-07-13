@@ -3,8 +3,8 @@
 
 import {FileTypes} from 'mattermost-redux/action_types';
 
-import {ViewTypes} from 'app/constants';
-import {buildFileUploadData, generateId} from 'app/utils/file';
+import {ViewTypes} from '../../../app/constants';
+import {buildFileUploadData, generateId} from '../../../app/utils/file';
 
 export function initUploadFiles(files, rootId) {
     return (dispatch, getState) => {

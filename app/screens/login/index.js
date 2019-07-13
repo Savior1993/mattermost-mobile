@@ -4,7 +4,7 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import LoginActions from 'app/actions/views/login';
+import LoginActions from '../../../app/actions/views/login';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {getConfig, getLicense} from 'mattermost-redux/selectors/entities/general';
 

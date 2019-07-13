@@ -3,7 +3,7 @@
 
 import {Client4} from 'mattermost-redux/client';
 
-import {cleanUrlForLogging} from 'app/utils/sentry';
+import {cleanUrlForLogging} from '../../../app/utils/sentry';
 
 /* eslint-disable max-nested-callbacks */
 

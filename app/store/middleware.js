@@ -3,13 +3,13 @@
 
 import DeviceInfo from 'react-native-device-info';
 
-import {ViewTypes} from 'app/constants';
-import initialState from 'app/initial_state';
+import {ViewTypes} from '../../app/constants';
+import initialState from '../../app/initial_state';
 
 import {
     captureException,
     LOGGER_JAVASCRIPT_WARNING,
-} from 'app/utils/sentry';
+} from '../../app/utils/sentry';
 
 export function messageRetention(store) {
     return (next) => (action) => {

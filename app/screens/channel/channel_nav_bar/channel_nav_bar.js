@@ -5,9 +5,9 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {Dimensions, Platform, View} from 'react-native';
 
-import {DeviceTypes, ViewTypes} from 'app/constants';
-import mattermostManaged from 'app/mattermost_managed';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import {DeviceTypes, ViewTypes} from '../../../../app/constants';
+import mattermostManaged from '../../../../app/mattermost_managed';
+import {makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 import ChannelDrawerButton from './channel_drawer_button';
 import ChannelSearchButton from './channel_search_button';

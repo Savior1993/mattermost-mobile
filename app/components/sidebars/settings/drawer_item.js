@@ -5,9 +5,9 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {TouchableOpacity, View} from 'react-native';
 
-import FormattedText from 'app/components/formatted_text';
-import VectorIcon from 'app/components/vector_icon.js';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import FormattedText from '../../../../app/components/formatted_text';
+import VectorIcon from '../../../../app/components/vector_icon.js';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 export default class DrawerItem extends PureComponent {
     static propTypes = {

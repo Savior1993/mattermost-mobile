@@ -13,7 +13,7 @@ import {getUserCurrentTimezone} from 'mattermost-redux/utils/timezone_utils';
 import {displayUsername} from 'mattermost-redux/utils/user_utils';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {fromAutoResponder} from 'app/utils/general';
+import {fromAutoResponder} from '../../../app/utils/general';
 
 import PostHeader from './post_header';
 

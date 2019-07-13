@@ -9,7 +9,7 @@ import {
     View,
 } from 'react-native';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
 
 export default class MarkdownListItem extends PureComponent {
     static propTypes = {

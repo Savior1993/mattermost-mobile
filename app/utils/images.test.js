@@ -1,11 +1,11 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {calculateDimensions, isGifTooLarge} from 'app/utils/images';
+import {calculateDimensions, isGifTooLarge} from '../../app/utils/images';
 import {
     IMAGE_MAX_HEIGHT,
     IMAGE_MIN_DIMENSION,
-} from 'app/constants/image';
+} from '../../app/constants/image';
 
 const PORTRAIT_VIEWPORT = 315;
 

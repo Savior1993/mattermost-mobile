@@ -9,12 +9,12 @@ import {
     View,
 } from 'react-native';
 
-import SettingsItem from 'app/screens/settings/settings_item';
-import StatusBar from 'app/components/status_bar';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
+import SettingsItem from '../../../../app/screens/settings/settings_item';
+import StatusBar from '../../../../app/components/status_bar';
+import {preventDoubleTap} from '../../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../../app/utils/theme';
 
-import ClockDisplay from 'app/screens/clock_display';
+import ClockDisplay from '../../../../app/screens/clock_display';
 
 export default class DisplaySettings extends PureComponent {
     static propTypes = {
