@@ -6,8 +6,8 @@ import {shallow} from 'enzyme';
 
 import Preferences from 'mattermost-redux/constants/preferences';
 
-import SendButton from 'app/components/send_button';
-import {changeOpacity} from 'app/utils/theme';
+import SendButton from '../../app/components/send_button';
+import {changeOpacity} from '../../app/utils/theme';
 
 describe('SendButton', () => {
     const baseProps = {

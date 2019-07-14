@@ -4,7 +4,7 @@
 import {Dimensions} from 'react-native';
 
 import {UserTypes} from 'mattermost-redux/action_types';
-import {DeviceTypes} from 'app/constants';
+import {DeviceTypes} from '../../../app/constants';
 
 const {height, width} = Dimensions.get('window');
 const initialState = {

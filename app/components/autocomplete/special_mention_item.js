@@ -10,8 +10,8 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-import FormattedText from 'app/components/formatted_text';
-import {makeStyleSheetFromTheme, changeOpacity} from 'app/utils/theme';
+import FormattedText from '../../../app/components/formatted_text';
+import {makeStyleSheetFromTheme, changeOpacity} from '../../../app/utils/theme';
 
 export default class SpecialMentionItem extends PureComponent {
     static propTypes = {

@@ -12,7 +12,7 @@ import {
 import {intlShape} from 'react-intl';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
-import RemoveMarkdown from 'app/components/remove_markdown';
+import RemoveMarkdown from '../../../app/components/remove_markdown';
 
 const {View: AnimatedView} = Animated;
 

@@ -17,11 +17,11 @@ import {
 
 import {isEmail} from 'mattermost-redux/utils/helpers';
 
-import {GlobalStyles} from 'app/styles';
+import {GlobalStyles} from '../../../app/styles';
 
-import ErrorText from 'app/components/error_text';
-import FormattedText from 'app/components/formatted_text';
-import StatusBar from 'app/components/status_bar';
+import ErrorText from '../../../app/components/error_text';
+import FormattedText from '../../../app/components/formatted_text';
+import StatusBar from '../../../app/components/status_bar';
 
 export default class ForgotPassword extends PureComponent {
     static propTypes = {

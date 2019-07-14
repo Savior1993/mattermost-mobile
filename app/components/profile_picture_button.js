@@ -6,9 +6,9 @@ import PropTypes from 'prop-types';
 
 import {Client4} from 'mattermost-redux/client';
 
-import {t} from 'app/utils/i18n';
+import {t} from '../../app/utils/i18n';
 
-import AttachmentButton from 'app/components/attachment_button';
+import AttachmentButton from '../../app/components/attachment_button';
 
 export default class ProfilePictureButton extends PureComponent {
     static propTypes = {

@@ -5,9 +5,9 @@ import {connect} from 'react-redux';
 import {getCurrentChannelId} from 'mattermost-redux/selectors/entities/channels';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
-import {getDimensions} from 'app/selectors/device';
-import {checkForFileUploadingInChannel} from 'app/selectors/file';
-import {getCurrentChannelDraft, getThreadDraft} from 'app/selectors/views';
+import {getDimensions} from '../../../app/selectors/device';
+import {checkForFileUploadingInChannel} from '../../../app/selectors/file';
+import {getCurrentChannelDraft, getThreadDraft} from '../../../app/selectors/views';
 
 import FileUploadPreview from './file_upload_preview';
 

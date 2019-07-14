@@ -6,7 +6,7 @@ import Preferences from 'mattermost-redux/constants/preferences';
 
 import {shallowWithIntl} from 'test/intl-test-helper';
 
-import CustomList from 'app/components/custom_list';
+import CustomList from '../../../app/components/custom_list';
 import ChannelMembers from './channel_members';
 
 describe('ChannelMembers', () => {

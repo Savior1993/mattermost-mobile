@@ -8,9 +8,9 @@ import {
     View,
 } from 'react-native';
 
-import EmojiPicker from 'app/components/emoji_picker';
-import {emptyFunction} from 'app/utils/general';
-import {setNavigatorStyles} from 'app/utils/theme';
+import EmojiPicker from '../../../app/components/emoji_picker';
+import {emptyFunction} from '../../../app/utils/general';
+import {setNavigatorStyles} from '../../../app/utils/theme';
 
 export default class AddReaction extends PureComponent {
     static propTypes = {

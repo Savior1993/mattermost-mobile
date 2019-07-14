@@ -7,7 +7,7 @@ import {
     getExtensionSortedDirectChannels,
     getExtensionSortedPrivateChannels,
     getExtensionSortedPublicChannels,
-} from 'share_extension/common/selectors';
+} from '../../../share_extension/common/selectors';
 
 import ExtensionChannels from './extension_channels';
 

@@ -5,7 +5,7 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {View} from 'react-native';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../app/utils/theme';
 
 const SEPARATOR_HEIGHT = 3;
 

@@ -6,7 +6,7 @@ import {connect} from 'react-redux';
 
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
-import {handleRemoveFile, retryFileUpload, uploadComplete, uploadFailed} from 'app/actions/views/file_upload';
+import {handleRemoveFile, retryFileUpload, uploadComplete, uploadFailed} from '../../../../app/actions/views/file_upload';
 
 import FileUploadItem from './file_upload_item';
 

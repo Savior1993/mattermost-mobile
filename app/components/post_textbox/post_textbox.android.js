@@ -3,8 +3,8 @@
 
 import React from 'react';
 
-import Autocomplete from 'app/components/autocomplete';
-import FileUploadPreview from 'app/components/file_upload_preview';
+import Autocomplete from '../../../app/components/autocomplete';
+import FileUploadPreview from '../../../app/components/file_upload_preview';
 
 import Typing from './components/typing';
 import PostTextBoxBase from './post_textbox_base';

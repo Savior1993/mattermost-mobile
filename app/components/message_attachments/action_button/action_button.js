@@ -5,8 +5,8 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import Button from 'react-native-button';
 
-import {preventDoubleTap} from 'app/utils/tap';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import {preventDoubleTap} from '../../../../app/utils/tap';
+import {makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 import ActionButtonText from './action_button_text';
 
 export default class ActionButton extends PureComponent {

@@ -21,16 +21,16 @@ import {General, RequestStatus} from 'mattermost-redux/constants';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 import {getFormattedFileSize} from 'mattermost-redux/utils/file_utils';
 
-import AttachmentButton from 'app/components/attachment_button';
-import Fade from 'app/components/fade';
-import FormattedMarkdownText from 'app/components/formatted_markdown_text';
-import FormattedText from 'app/components/formatted_text';
-import SendButton from 'app/components/send_button';
+import AttachmentButton from '../../../app/components/attachment_button';
+import Fade from '../../../app/components/fade';
+import FormattedMarkdownText from '../../../app/components/formatted_markdown_text';
+import FormattedText from '../../../app/components/formatted_text';
+import SendButton from '../../../app/components/send_button';
 
-import {INSERT_TO_COMMENT, INSERT_TO_DRAFT, IS_REACTION_REGEX, MAX_CONTENT_HEIGHT, MAX_FILE_COUNT} from 'app/constants/post_textbox';
-import {t} from 'app/utils/i18n';
-import {confirmOutOfOfficeDisabled} from 'app/utils/status';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {INSERT_TO_COMMENT, INSERT_TO_DRAFT, IS_REACTION_REGEX, MAX_CONTENT_HEIGHT, MAX_FILE_COUNT} from '../../../app/constants/post_textbox';
+import {t} from '../../../app/utils/i18n';
+import {confirmOutOfOfficeDisabled} from '../../../app/utils/status';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 const PLACEHOLDER_COLOR = changeOpacity('#000', 0.5);
 const {RNTextInputReset} = NativeModules;

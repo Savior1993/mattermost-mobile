@@ -8,8 +8,8 @@ import {canDownloadFilesOnMobile} from 'mattermost-redux/selectors/entities/gene
 import {makeGetFilesForPost} from 'mattermost-redux/selectors/entities/files';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
-import {loadFilesForPostIfNecessary} from 'app/actions/views/channel';
-import {getDimensions} from 'app/selectors/device';
+import {loadFilesForPostIfNecessary} from '../../../app/actions/views/channel';
+import {getDimensions} from '../../../app/selectors/device';
 
 import FileAttachmentList from './file_attachment_list';
 

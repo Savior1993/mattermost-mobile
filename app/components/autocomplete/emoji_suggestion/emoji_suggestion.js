@@ -13,9 +13,9 @@ import {
 
 import {isMinimumServerVersion} from 'mattermost-redux/utils/helpers';
 
-import AutocompleteDivider from 'app/components/autocomplete/autocomplete_divider';
-import Emoji from 'app/components/emoji';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import AutocompleteDivider from '../../../../app/components/autocomplete/autocomplete_divider';
+import Emoji from '../../../../app/components/emoji';
+import {makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 const EMOJI_REGEX = /(^|\s|^\+|^-)(:([^:\s]*))$/i;
 const EMOJI_REGEX_WITHOUT_PREFIX = /\B(:([^:\s]*))$/i;

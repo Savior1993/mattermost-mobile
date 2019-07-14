@@ -23,18 +23,18 @@ import RNFetchBlob from 'rn-fetch-blob';
 
 import {Client4} from 'mattermost-redux/client';
 
-import ErrorText from 'app/components/error_text';
-import FormattedText from 'app/components/formatted_text';
-import fetchConfig from 'app/init/fetch';
-import mattermostBucket from 'app/mattermost_bucket';
-import {GlobalStyles} from 'app/styles';
-import {checkUpgradeType, isUpgradeAvailable} from 'app/utils/client_upgrade';
-import {isValidUrl, stripTrailingSlashes} from 'app/utils/url';
-import {preventDoubleTap} from 'app/utils/tap';
-import tracker from 'app/utils/time_tracker';
-import {t} from 'app/utils/i18n';
+import ErrorText from '../../../app/components/error_text';
+import FormattedText from '../../../app/components/formatted_text';
+import fetchConfig from '../../../app/init/fetch';
+import mattermostBucket from '../../../app/mattermost_bucket';
+import {GlobalStyles} from '../../../app/styles';
+import {checkUpgradeType, isUpgradeAvailable} from '../../../app/utils/client_upgrade';
+import {isValidUrl, stripTrailingSlashes} from '../../../app/utils/url';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import tracker from '../../../app/utils/time_tracker';
+import {t} from '../../../app/utils/i18n';
 
-import telemetry from 'app/telemetry';
+import telemetry from '../../../app/telemetry';
 
 import LocalConfig from 'assets/config';
 

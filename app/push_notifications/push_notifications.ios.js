@@ -4,7 +4,7 @@
 import {AppState} from 'react-native';
 import NotificationsIOS, {NotificationAction, NotificationCategory} from 'react-native-notifications';
 
-import ephemeralStore from 'app/store/ephemeral_store';
+import ephemeralStore from '../../app/store/ephemeral_store';
 
 const CATEGORY = 'CAN_REPLY';
 const REPLY_ACTION = 'REPLY_ACTION';

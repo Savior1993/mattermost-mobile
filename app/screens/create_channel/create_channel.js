@@ -12,8 +12,8 @@ import {
 import {General, RequestStatus} from 'mattermost-redux/constants';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import EditChannelInfo from 'app/components/edit_channel_info';
-import {setNavigatorStyles} from 'app/utils/theme';
+import EditChannelInfo from '../../../app/components/edit_channel_info';
+import {setNavigatorStyles} from '../../../app/utils/theme';
 
 export default class CreateChannel extends PureComponent {
     static propTypes = {

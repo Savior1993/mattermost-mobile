@@ -4,7 +4,7 @@
 import {combineReducers} from 'redux';
 import {TeamTypes} from 'mattermost-redux/action_types';
 
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
 function lastTeamId(state = '', action) {
     switch (action.type) {

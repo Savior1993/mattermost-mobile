@@ -11,8 +11,8 @@ import {
     TapGestureHandler,
 } from 'react-native-gesture-handler';
 
-import {DeviceTypes} from 'app/constants';
-import mattermostManaged from 'app/mattermost_managed';
+import {DeviceTypes} from '../../../app/constants';
+import mattermostManaged from '../../../app/mattermost_managed';
 
 import SlideUpPanelIndicator from './slide_up_panel_indicator';
 

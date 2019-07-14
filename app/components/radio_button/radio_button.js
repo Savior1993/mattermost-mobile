@@ -8,7 +8,7 @@ import {Animated, Text, View} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import {makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 const DISABLED_OPACITY = 0.26;
 const DEFAULT_OPACITY = 1;

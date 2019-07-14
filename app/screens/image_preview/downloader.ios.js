@@ -11,10 +11,10 @@ import {intlShape} from 'react-intl';
 
 import {Client4} from 'mattermost-redux/client';
 
-import FormattedText from 'app/components/formatted_text';
-import mattermostBucket from 'app/mattermost_bucket';
-import {getLocalFilePathFromFile} from 'app/utils/file';
-import {emptyFunction} from 'app/utils/general';
+import FormattedText from '../../../app/components/formatted_text';
+import mattermostBucket from '../../../app/mattermost_bucket';
+import {getLocalFilePathFromFile} from '../../../app/utils/file';
+import {emptyFunction} from '../../../app/utils/general';
 
 import DownloaderBottomContent from './downloader_bottom_content.js';
 

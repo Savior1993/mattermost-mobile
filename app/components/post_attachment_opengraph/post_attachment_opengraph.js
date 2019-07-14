@@ -12,13 +12,13 @@ import {
     View,
 } from 'react-native';
 
-import {TABLET_WIDTH} from 'app/components/sidebars/drawer_layout';
-import {DeviceTypes} from 'app/constants';
+import {TABLET_WIDTH} from '../../../app/components/sidebars/drawer_layout';
+import {DeviceTypes} from '../../../app/constants';
 
-import ImageCacheManager from 'app/utils/image_cache_manager';
-import {previewImageAtIndex, calculateDimensions} from 'app/utils/images';
-import {getNearestPoint} from 'app/utils/opengraph';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import ImageCacheManager from '../../../app/utils/image_cache_manager';
+import {previewImageAtIndex, calculateDimensions} from '../../../app/utils/images';
+import {getNearestPoint} from '../../../app/utils/opengraph';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 const MAX_IMAGE_HEIGHT = 150;
 const VIEWPORT_IMAGE_OFFSET = 93;

@@ -9,8 +9,8 @@ import {
     View,
 } from 'react-native';
 
-import CheckMark from 'app/components/checkmark';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import CheckMark from '../../../../app/components/checkmark';
+import {makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 const ITEM_HEIGHT = 45;
 

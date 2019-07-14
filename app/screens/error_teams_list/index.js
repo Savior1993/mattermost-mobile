@@ -5,8 +5,8 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
 import {logout, loadMe} from 'mattermost-redux/actions/users';
-import {connection} from 'app/actions/device';
-import {selectDefaultTeam} from 'app/actions/views/select_team';
+import {connection} from '../../../app/actions/device';
+import {selectDefaultTeam} from '../../../app/actions/views/select_team';
 
 import ErrorTeamsList from './error_teams_list.js';
 

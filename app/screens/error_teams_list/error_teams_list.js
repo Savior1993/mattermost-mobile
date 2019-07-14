@@ -8,11 +8,11 @@ import {
     View,
 } from 'react-native';
 
-import FailedNetworkAction from 'app/components/failed_network_action';
-import Loading from 'app/components/loading';
-import StatusBar from 'app/components/status_bar';
-import {makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import FailedNetworkAction from '../../../app/components/failed_network_action';
+import Loading from '../../../app/components/loading';
+import StatusBar from '../../../app/components/status_bar';
+import {makeStyleSheetFromTheme, setNavigatorStyles} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
 
 const errorTitle = {
     id: t('error.team_not_found.title'),

@@ -11,19 +11,19 @@ import {DocumentPickerUtil} from 'react-native-document-picker';
 
 import {Client4} from 'mattermost-redux/client';
 
-import {buildFileUploadData, encodeHeaderURIStringToUTF8} from 'app/utils/file';
-import {emptyFunction} from 'app/utils/general';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import {buildFileUploadData, encodeHeaderURIStringToUTF8} from '../../../app/utils/file';
+import {emptyFunction} from '../../../app/utils/general';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
 
-import TextSetting from 'app/components/widgets/settings/text_setting';
-import Loading from 'app/components/loading';
-import ErrorText from 'app/components/error_text';
-import StatusBar from 'app/components/status_bar/index';
-import ProfilePictureButton from 'app/components/profile_picture_button';
-import ProfilePicture from 'app/components/profile_picture';
-import mattermostBucket from 'app/mattermost_bucket';
+import TextSetting from '../../../app/components/widgets/settings/text_setting';
+import Loading from '../../../app/components/loading';
+import ErrorText from '../../../app/components/error_text';
+import StatusBar from '../../../app/components/status_bar/index';
+import ProfilePictureButton from '../../../app/components/profile_picture_button';
+import ProfilePicture from '../../../app/components/profile_picture';
+import mattermostBucket from '../../../app/mattermost_bucket';
 
 import {getFormattedFileSize} from 'mattermost-redux/utils/file_utils';
 

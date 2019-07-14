@@ -3,7 +3,7 @@
 
 import {connect} from 'react-redux';
 
-import {getDimensions} from 'app/selectors/device';
+import {getDimensions} from '../../../app/selectors/device';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {canDownloadFilesOnMobile} from 'mattermost-redux/selectors/entities/general';
 

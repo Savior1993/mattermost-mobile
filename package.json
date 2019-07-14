@@ -22,6 +22,7 @@
     "mattermost-redux": "github:mattermost/mattermost-redux#09d6cfe6e9efe537919c1eac74d7df0adc54a163",
     "mime-db": "1.40.0",
     "moment-timezone": "0.5.25",
+    "path": "0.12.7",
     "prop-types": "15.7.2",
     "react": "16.8.6",
     "react-intl": "2.8.0",

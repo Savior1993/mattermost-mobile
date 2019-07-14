@@ -18,13 +18,13 @@ import {General} from 'mattermost-redux/constants';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 import {getLastPostIndex} from 'mattermost-redux/utils/post_list';
 
-import FormattedText from 'app/components/formatted_text';
-import Loading from 'app/components/loading';
-import PostList from 'app/components/post_list';
-import PostListRetry from 'app/components/post_list_retry';
-import SafeAreaView from 'app/components/safe_area_view';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import FormattedText from '../../../app/components/formatted_text';
+import Loading from '../../../app/components/loading';
+import PostList from '../../../app/components/post_list';
+import PostListRetry from '../../../app/components/post_list_retry';
+import SafeAreaView from '../../../app/components/safe_area_view';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 Animatable.initializeRegistryWithDefinitions({
     growOut: {

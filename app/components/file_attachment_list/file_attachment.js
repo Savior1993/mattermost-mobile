@@ -11,8 +11,8 @@ import {
 
 import * as Utils from 'mattermost-redux/utils/file_utils.js';
 
-import {isDocument, isGif} from 'app/utils/file';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {isDocument, isGif} from '../../../app/utils/file';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 import FileAttachmentDocument from './file_attachment_document';
 import FileAttachmentIcon from './file_attachment_icon';

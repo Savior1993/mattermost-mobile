@@ -7,10 +7,10 @@ import {intlShape} from 'react-intl';
 
 import {Posts} from 'mattermost-redux/constants';
 
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import {makeStyleSheetFromTheme} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
 
-import Markdown from 'app/components/markdown';
+import Markdown from '../../../app/components/markdown';
 
 import LastUsers from './last_users';
 

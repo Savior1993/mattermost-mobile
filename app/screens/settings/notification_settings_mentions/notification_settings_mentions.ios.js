@@ -9,12 +9,12 @@ import {
 } from 'react-native';
 import {injectIntl} from 'react-intl';
 
-import FormattedText from 'app/components/formatted_text';
-import StatusBar from 'app/components/status_bar';
-import Section from 'app/screens/settings/section';
-import SectionItem from 'app/screens/settings/section_item';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import FormattedText from '../../../../app/components/formatted_text';
+import StatusBar from '../../../../app/components/status_bar';
+import Section from '../../../../app/screens/settings/section';
+import SectionItem from '../../../../app/screens/settings/section_item';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
+import {t} from '../../../../app/utils/i18n';
 
 import NotificationSettingsMentionsBase from './notification_settings_mention_base';
 

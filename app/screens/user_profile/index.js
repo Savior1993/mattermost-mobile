@@ -4,8 +4,8 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {setChannelDisplayName} from 'app/actions/views/channel';
-import {makeDirectChannel} from 'app/actions/views/more_dms';
+import {setChannelDisplayName} from '../../../app/actions/views/channel';
+import {makeDirectChannel} from '../../../app/actions/views/more_dms';
 
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {getTeammateNameDisplaySetting, getTheme, getBool} from 'mattermost-redux/selectors/entities/preferences';

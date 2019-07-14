@@ -11,8 +11,8 @@ import {
 
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import {DeviceTypes} from 'app/constants';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {DeviceTypes} from '../../../app/constants';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 import AtMention from './at_mention';
 import ChannelMention from './channel_mention';

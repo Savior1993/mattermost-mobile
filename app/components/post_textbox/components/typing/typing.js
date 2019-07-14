@@ -8,8 +8,8 @@ import {
     Text,
 } from 'react-native';
 
-import FormattedText from 'app/components/formatted_text';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import FormattedText from '../../../../../app/components/formatted_text';
+import {makeStyleSheetFromTheme} from '../../../../../app/utils/theme';
 
 const {View: AnimatedView} = Animated;
 

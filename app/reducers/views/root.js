@@ -5,7 +5,7 @@ import {combineReducers} from 'redux';
 
 import {General} from 'mattermost-redux/constants';
 
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
 function deepLinkURL(state = '', action) {
     switch (action.type) {

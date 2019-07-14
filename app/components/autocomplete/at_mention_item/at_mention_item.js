@@ -9,9 +9,9 @@ import {
     View,
 } from 'react-native';
 
-import ProfilePicture from 'app/components/profile_picture';
-import BotTag from 'app/components/bot_tag';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import ProfilePicture from '../../../../app/components/profile_picture';
+import BotTag from '../../../app/components/bot_tag';
+import {makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 export default class AtMentionItem extends PureComponent {
     static propTypes = {

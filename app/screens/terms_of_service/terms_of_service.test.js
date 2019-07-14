@@ -10,8 +10,8 @@ import TermsOfService from './terms_of_service.js';
 
 jest.mock('react-intl');
 
-jest.mock('app/utils/theme', () => {
-    const original = require.requireActual('app/utils/theme');
+jest.mock('../../../app/utils/theme', () => {
+    const original = require.requireActual('../../../app/utils/theme');
     return {
         ...original,
         changeOpacity: jest.fn(),

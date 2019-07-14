@@ -8,12 +8,12 @@ import {
     View,
 } from 'react-native';
 
-import ErrorText from 'app/components/error_text';
-import Loading from 'app/components/loading';
-import StatusBar from 'app/components/status_bar';
-import TextInputWithLocalizedPlaceholder from 'app/components/text_input_with_localized_placeholder';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import ErrorText from '../../../app/components/error_text';
+import Loading from '../../../app/components/loading';
+import StatusBar from '../../../app/components/status_bar';
+import TextInputWithLocalizedPlaceholder from '../../../app/components/text_input_with_localized_placeholder';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
 
 import {RequestStatus} from 'mattermost-redux/constants';
 

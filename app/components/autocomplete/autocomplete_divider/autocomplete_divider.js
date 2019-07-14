@@ -5,7 +5,7 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {View} from 'react-native';
 
-import {makeStyleSheetFromTheme, changeOpacity} from 'app/utils/theme';
+import {makeStyleSheetFromTheme, changeOpacity} from '../../../../app/utils/theme';
 
 export default class AutocompleteDivider extends PureComponent {
     static propTypes = {

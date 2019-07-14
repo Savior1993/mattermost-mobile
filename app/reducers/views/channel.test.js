@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 
 import channelReducer from './channel';
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
 describe('Reducers.channel', () => {
     const initialState = {

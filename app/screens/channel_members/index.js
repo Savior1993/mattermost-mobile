@@ -4,7 +4,7 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {handleRemoveChannelMembers} from 'app/actions/views/channel_members';
+import {handleRemoveChannelMembers} from '../../../app/actions/views/channel_members';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {getCurrentChannel, canManageChannelMembers} from 'mattermost-redux/selectors/entities/channels';
 import {makeGetProfilesInChannel} from 'mattermost-redux/selectors/entities/users';

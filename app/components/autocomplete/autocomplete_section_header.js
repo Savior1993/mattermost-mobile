@@ -5,8 +5,8 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {ActivityIndicator, View} from 'react-native';
 
-import FormattedText from 'app/components/formatted_text';
-import {makeStyleSheetFromTheme, changeOpacity} from 'app/utils/theme';
+import FormattedText from '../../../app/components/formatted_text';
+import {makeStyleSheetFromTheme, changeOpacity} from '../../../app/utils/theme';
 
 export default class AutocompleteSectionHeader extends PureComponent {
     static propTypes = {

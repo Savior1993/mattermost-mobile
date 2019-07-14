@@ -4,7 +4,7 @@
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 
-import AutocompleteSelector from 'app/components/autocomplete_selector';
+import AutocompleteSelector from '../../../../app/components/autocomplete_selector';
 
 export default class ActionMenu extends PureComponent {
     static propTypes = {

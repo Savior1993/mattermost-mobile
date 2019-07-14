@@ -10,10 +10,10 @@ import {getCustomEmojisByName} from 'mattermost-redux/selectors/entities/emojis'
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {getCustomEmojis, searchCustomEmojis} from 'mattermost-redux/actions/emojis';
 
-import {incrementEmojiPickerPage} from 'app/actions/views/emoji';
-import {getDimensions, isLandscape} from 'app/selectors/device';
-import {CategoryNames, Emojis, EmojiIndicesByAlias, EmojiIndicesByCategory} from 'app/utils/emojis';
-import {t} from 'app/utils/i18n';
+import {incrementEmojiPickerPage} from '../../../app/actions/views/emoji';
+import {getDimensions, isLandscape} from '../../../app/selectors/device';
+import {CategoryNames, Emojis, EmojiIndicesByAlias, EmojiIndicesByCategory} from '../../../app/utils/emojis';
+import {t} from '../../../app/utils/i18n';
 
 import EmojiPicker from './emoji_picker';
 import Fuse from 'fuse.js';

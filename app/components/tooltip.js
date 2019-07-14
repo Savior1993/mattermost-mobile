@@ -5,7 +5,7 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import RNToolTip from 'react-native-tooltip';
 
-import {setToolTipVisible, getToolTipVisible} from 'app/utils/tooltip';
+import {setToolTipVisible, getToolTipVisible} from '../../app/utils/tooltip';
 
 export default class ToolTip extends PureComponent {
     static propTypes = {

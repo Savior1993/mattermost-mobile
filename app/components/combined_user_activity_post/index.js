@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 
 import {makeGenerateCombinedPost} from 'mattermost-redux/utils/post_list';
 
-import Post from 'app/components/post';
+import Post from '../../../app/components/post';
 
 export function makeMapStateToProps() {
     const generateCombinedPost = makeGenerateCombinedPost();

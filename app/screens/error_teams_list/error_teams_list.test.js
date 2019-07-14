@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import Preferences from 'mattermost-redux/constants/preferences';
 
-import FailedNetworkAction from 'app/components/failed_network_action';
+import FailedNetworkAction from '../../../app/components/failed_network_action';
 import ErrorTeamsList from './error_teams_list';
 
 describe('ErrorTeamsList', () => {

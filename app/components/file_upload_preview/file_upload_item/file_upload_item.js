@@ -9,12 +9,12 @@ import {AnimatedCircularProgress} from 'react-native-circular-progress';
 
 import {Client4} from 'mattermost-redux/client';
 
-import FileAttachmentImage from 'app/components/file_attachment_list/file_attachment_image';
-import FileAttachmentIcon from 'app/components/file_attachment_list/file_attachment_icon';
-import FileUploadRetry from 'app/components/file_upload_preview/file_upload_retry';
-import FileUploadRemove from 'app/components/file_upload_preview/file_upload_remove';
-import mattermostBucket from 'app/mattermost_bucket';
-import {buildFileUploadData, encodeHeaderURIStringToUTF8} from 'app/utils/file';
+import FileAttachmentImage from '../../../../app/components/file_attachment_list/file_attachment_image';
+import FileAttachmentIcon from '../../../../app/components/file_attachment_list/file_attachment_icon';
+import FileUploadRetry from '../../../../app/components/file_upload_preview/file_upload_retry';
+import FileUploadRemove from '../../../../app/components/file_upload_preview/file_upload_remove';
+import mattermostBucket from '../../../../app/mattermost_bucket';
+import {buildFileUploadData, encodeHeaderURIStringToUTF8} from '../../../../app/utils/file';
 
 export default class FileUploadItem extends PureComponent {
     static propTypes = {

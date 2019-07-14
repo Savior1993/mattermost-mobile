@@ -10,8 +10,8 @@ import {
 
 import {RequestStatus} from 'mattermost-redux/constants';
 
-import AutocompleteDivider from 'app/components/autocomplete/autocomplete_divider';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import AutocompleteDivider from '../../../../app/components/autocomplete/autocomplete_divider';
+import {makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 import SlashSuggestionItem from './slash_suggestion_item';
 

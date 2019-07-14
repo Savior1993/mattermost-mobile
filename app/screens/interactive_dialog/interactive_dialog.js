@@ -7,10 +7,10 @@ import {ScrollView, View} from 'react-native';
 
 import {checkDialogElementForError, checkIfErrorsMatchElements} from 'mattermost-redux/utils/integration_utils';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
-import StatusBar from 'app/components/status_bar';
-import FormattedText from 'app/components/formatted_text';
+import StatusBar from '../../../app/components/status_bar';
+import FormattedText from '../../../app/components/formatted_text';
 
 import DialogElement from './dialog_element.js';
 

@@ -8,12 +8,12 @@ import Renderer from 'commonmark-react-renderer';
 import {Parser} from 'commonmark';
 import {injectIntl, intlShape} from 'react-intl';
 
-import {concatStyles, changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {getMarkdownTextStyles} from 'app/utils/markdown';
-import CustomPropTypes from 'app/constants/custom_prop_types';
+import {concatStyles, changeOpacity, makeStyleSheetFromTheme} from '../../app/utils/theme';
+import {getMarkdownTextStyles} from '../../app/utils/markdown';
+import CustomPropTypes from '../../app/constants/custom_prop_types';
 
-import AtMention from 'app/components/at_mention';
-import MarkdownLink from 'app/components/markdown/markdown_link';
+import AtMention from '../../app/components/at_mention';
+import MarkdownLink from '../../app/components/markdown/markdown_link';
 
 const TARGET_BLANK_URL_PREFIX = '!';
 

@@ -24,13 +24,13 @@ import Gallery from 'react-native-image-gallery';
 
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import FileAttachmentDocument from 'app/components/file_attachment_list/file_attachment_document';
-import FileAttachmentIcon from 'app/components/file_attachment_list/file_attachment_icon';
-import {DeviceTypes, NavigationTypes, PermissionTypes} from 'app/constants';
-import {getLocalFilePathFromFile, isDocument, isVideo} from 'app/utils/file';
-import {emptyFunction} from 'app/utils/general';
-import {calculateDimensions} from 'app/utils/images';
-import {t} from 'app/utils/i18n';
+import FileAttachmentDocument from '../../../app/components/file_attachment_list/file_attachment_document';
+import FileAttachmentIcon from '../../../app/components/file_attachment_list/file_attachment_icon';
+import {DeviceTypes, NavigationTypes, PermissionTypes} from '../../../app/constants';
+import {getLocalFilePathFromFile, isDocument, isVideo} from '../../../app/utils/file';
+import {emptyFunction} from '../../../app/utils/general';
+import {calculateDimensions} from '../../../app/utils/images';
+import {t} from '../../../app/utils/i18n';
 
 import Downloader from './downloader';
 import VideoPreview from './video_preview';

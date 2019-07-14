@@ -5,9 +5,9 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {TouchableOpacity, View} from 'react-native';
 
-import FormattedText from 'app/components/formatted_text';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import FormattedText from '../../../app/components/formatted_text';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
 
 import Cloud from './cloud';
 

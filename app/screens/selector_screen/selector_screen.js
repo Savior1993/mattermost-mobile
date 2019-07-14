@@ -15,17 +15,17 @@ import {filterProfilesMatchingTerm} from 'mattermost-redux/utils/user_utils';
 import {filterChannelsMatchingTerm} from 'mattermost-redux/utils/channel_utils';
 import {memoizeResult} from 'mattermost-redux/utils/helpers';
 
-import CustomList, {FLATLIST, SECTIONLIST} from 'app/components/custom_list';
-import UserListRow from 'app/components/custom_list/user_list_row';
-import ChannelListRow from 'app/components/custom_list/channel_list_row';
-import OptionListRow from 'app/components/custom_list/option_list_row';
-import FormattedText from 'app/components/formatted_text';
-import SearchBar from 'app/components/search_bar';
-import StatusBar from 'app/components/status_bar';
-import {ViewTypes} from 'app/constants';
-import {createProfilesSections, loadingText} from 'app/utils/member_list';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import CustomList, {FLATLIST, SECTIONLIST} from '../../../app/components/custom_list';
+import UserListRow from '../../../app/components/custom_list/user_list_row';
+import ChannelListRow from '../../../app/components/custom_list/channel_list_row';
+import OptionListRow from '../../../app/components/custom_list/option_list_row';
+import FormattedText from '../../../app/components/formatted_text';
+import SearchBar from '../../../app/components/search_bar';
+import StatusBar from '../../../app/components/status_bar';
+import {ViewTypes} from '../../../app/constants';
+import {createProfilesSections, loadingText} from '../../../app/utils/member_list';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
 
 export default class SelectorScreen extends PureComponent {
     static propTypes = {

@@ -15,10 +15,10 @@ import {intlShape} from 'react-intl';
 
 import {Client4} from 'mattermost-redux/client';
 
-import {DeviceTypes} from 'app/constants/';
-import FormattedText from 'app/components/formatted_text';
-import {getLocalFilePathFromFile, isDocument, isVideo} from 'app/utils/file';
-import {emptyFunction} from 'app/utils/general';
+import {DeviceTypes} from '../../../app/constants/';
+import FormattedText from '../../../app/components/formatted_text';
+import {getLocalFilePathFromFile, isDocument, isVideo} from '../../../app/utils/file';
+import {emptyFunction} from '../../../app/utils/general';
 
 const {DOCUMENTS_PATH, VIDEOS_PATH} = DeviceTypes;
 const EXTERNAL_STORAGE_PERMISSION = 'android.permission.WRITE_EXTERNAL_STORAGE';

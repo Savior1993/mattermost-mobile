@@ -9,8 +9,8 @@ import {intlShape} from 'react-intl';
 
 import {memoizeResult} from 'mattermost-redux/utils/helpers';
 
-import {DATE_MENTION_SEARCH_REGEX, ALL_SEARCH_FLAGS_REGEX} from 'app/constants/autocomplete';
-import {changeOpacity} from 'app/utils/theme';
+import {DATE_MENTION_SEARCH_REGEX, ALL_SEARCH_FLAGS_REGEX} from '../../../../app/constants/autocomplete';
+import {changeOpacity} from '../../../../app/utils/theme';
 
 export default class DateSuggestion extends PureComponent {
     static propTypes = {

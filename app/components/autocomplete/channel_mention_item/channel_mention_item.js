@@ -9,9 +9,9 @@ import {
 } from 'react-native';
 
 import {General} from 'mattermost-redux/constants';
-import BotTag from 'app/components/bot_tag';
+import BotTag from '../../../../app/components/bot_tag';
 
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import {makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 export default class ChannelMentionItem extends PureComponent {
     static propTypes = {

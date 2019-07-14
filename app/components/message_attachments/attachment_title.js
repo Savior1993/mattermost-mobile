@@ -5,8 +5,8 @@ import React, {PureComponent} from 'react';
 import {Linking, Text, View} from 'react-native';
 import PropTypes from 'prop-types';
 
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
-import Markdown from 'app/components/markdown';
+import {makeStyleSheetFromTheme} from '../../../app/utils/theme';
+import Markdown from '../../../app/components/markdown';
 
 export default class AttachmentTitle extends PureComponent {
     static propTypes = {

@@ -10,9 +10,9 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {getOpenGraphMetadataForUrl} from 'mattermost-redux/selectors/entities/posts';
 import {getBool, getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
-import {ViewTypes} from 'app/constants';
-import {getDimensions} from 'app/selectors/device';
-import {extractFirstLink} from 'app/utils/url';
+import {ViewTypes} from '../../../app/constants';
+import {getDimensions} from '../../../app/selectors/device';
+import {extractFirstLink} from '../../../app/utils/url';
 
 import PostBodyAdditionalContent from './post_body_additional_content';
 

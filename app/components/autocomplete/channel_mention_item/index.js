@@ -9,7 +9,7 @@ import {getChannel} from 'mattermost-redux/selectors/entities/channels';
 
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
-import {getChannelNameForSearchAutocomplete} from 'app/selectors/channel';
+import {getChannelNameForSearchAutocomplete} from '../../../../app/selectors/channel';
 
 import ChannelMentionItem from './channel_mention_item';
 

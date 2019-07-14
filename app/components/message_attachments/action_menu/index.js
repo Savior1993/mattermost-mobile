@@ -4,7 +4,7 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {selectAttachmentMenuAction} from 'app/actions/views/post';
+import {selectAttachmentMenuAction} from '../../../../app/actions/views/post';
 
 import ActionMenu from './action_menu';
 

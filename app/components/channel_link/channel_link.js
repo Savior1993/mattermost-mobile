@@ -6,9 +6,9 @@ import PropTypes from 'prop-types';
 import {Text} from 'react-native';
 import {intlShape} from 'react-intl';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
-import {t} from 'app/utils/i18n';
-import {alertErrorWithFallback} from 'app/utils/general';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
+import {t} from '../../../app/utils/i18n';
+import {alertErrorWithFallback} from '../../../app/utils/general';
 
 import {getChannelFromChannelName} from './channel_link_utils';
 

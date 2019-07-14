@@ -8,11 +8,11 @@ import {
     View,
 } from 'react-native';
 
-import StatusBar from 'app/components/status_bar';
-import FormattedText from 'app/components/formatted_text';
-import RadioButtonGroup from 'app/components/radio_button';
+import StatusBar from '../../../app/components/status_bar';
+import FormattedText from '../../../app/components/formatted_text';
+import RadioButtonGroup from '../../../app/components/radio_button';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 import ClockDisplayBase from './clock_display_base';
 

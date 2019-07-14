@@ -5,10 +5,10 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {Image, TouchableWithoutFeedback, View} from 'react-native';
 
-import ProgressiveImage from 'app/components/progressive_image';
-import {isGifTooLarge, previewImageAtIndex, calculateDimensions} from 'app/utils/images';
-import ImageCacheManager from 'app/utils/image_cache_manager';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import ProgressiveImage from '../../../app/components/progressive_image';
+import {isGifTooLarge, previewImageAtIndex, calculateDimensions} from '../../../app/utils/images';
+import ImageCacheManager from '../../../app/utils/image_cache_manager';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 const VIEWPORT_IMAGE_OFFSET = 100;
 const VIEWPORT_IMAGE_CONTAINER_OFFSET = 10;

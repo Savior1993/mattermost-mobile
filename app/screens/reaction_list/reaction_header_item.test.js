@@ -8,7 +8,7 @@ import Preferences from 'mattermost-redux/constants/preferences';
 
 import ReactionHeaderItem from './reaction_header_item';
 
-import {ALL_EMOJIS} from 'app/constants/emoji';
+import {ALL_EMOJIS} from '../../../app/constants/emoji';
 
 describe('ReactionHeaderItem', () => {
     const baseProps = {

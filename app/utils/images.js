@@ -6,7 +6,7 @@ import {Keyboard} from 'react-native';
 import {
     IMAGE_MAX_HEIGHT,
     IMAGE_MIN_DIMENSION,
-} from 'app/constants/image';
+} from '../../app/constants/image';
 
 let previewComponents;
 

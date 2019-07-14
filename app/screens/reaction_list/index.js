@@ -9,7 +9,7 @@ import {makeGetReactionsForPost} from 'mattermost-redux/selectors/entities/posts
 import {getCurrentUserId, makeGetProfilesByIdsAndUsernames} from 'mattermost-redux/selectors/entities/users';
 import {getTeammateNameDisplaySetting, getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
-import {getUniqueUserIds} from 'app/utils/reaction';
+import {getUniqueUserIds} from '../../../app/utils/reaction';
 
 import ReactionList from './reaction_list';
 

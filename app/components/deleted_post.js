@@ -4,10 +4,10 @@
 import React, {PureComponent} from 'react';
 import {View} from 'react-native';
 import PropTypes from 'prop-types';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import FormattedText from 'app/components/formatted_text';
-import AppIcon from 'app/components/app_icon';
-import {ViewTypes} from 'app/constants';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../app/utils/theme';
+import FormattedText from '../../app/components/formatted_text';
+import AppIcon from '../../app/components/app_icon';
+import {ViewTypes} from '../../app/constants';
 
 class DeletedPost extends PureComponent {
     static propTypes = {

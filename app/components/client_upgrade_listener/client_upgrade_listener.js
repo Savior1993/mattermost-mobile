@@ -13,10 +13,10 @@ import {
 import {intlShape} from 'react-intl';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
-import FormattedText from 'app/components/formatted_text';
-import {DeviceTypes} from 'app/constants';
-import {checkUpgradeType, isUpgradeAvailable} from 'app/utils/client_upgrade';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import FormattedText from '../../../app/components/formatted_text';
+import {DeviceTypes} from '../../../app/constants';
+import {checkUpgradeType, isUpgradeAvailable} from '../../../app/utils/client_upgrade';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 const {View: AnimatedView} = Animated;
 

@@ -13,11 +13,11 @@ import {
 
 import {General, Users} from 'mattermost-redux/constants';
 
-import StatusBar from 'app/components/status_bar';
-import {preventDoubleTap} from 'app/utils/tap';
-import {alertErrorWithFallback} from 'app/utils/general';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import StatusBar from '../../../app/components/status_bar';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {alertErrorWithFallback} from '../../../app/utils/general';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
 import pinIcon from 'assets/images/channel_info/pin.png';
 
 import ChannelInfoHeader from './channel_info_header';

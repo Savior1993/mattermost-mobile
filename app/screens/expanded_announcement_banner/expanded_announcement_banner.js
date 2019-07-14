@@ -6,11 +6,11 @@ import React from 'react';
 import {ScrollView, View} from 'react-native';
 import Button from 'react-native-button';
 
-import FormattedText from 'app/components/formatted_text';
-import Markdown from 'app/components/markdown';
+import FormattedText from '../../../app/components/formatted_text';
+import Markdown from '../../../app/components/markdown';
 
-import {getMarkdownTextStyles, getMarkdownBlockStyles} from 'app/utils/markdown';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {getMarkdownTextStyles, getMarkdownBlockStyles} from '../../../app/utils/markdown';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 export default class ExpandedAnnouncementBanner extends React.PureComponent {
     static propTypes = {

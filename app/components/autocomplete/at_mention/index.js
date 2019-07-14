@@ -13,7 +13,7 @@ import {
     filterMembersNotInChannel,
     filterMembersInCurrentTeam,
     getMatchTermForAtMention,
-} from 'app/selectors/autocomplete';
+} from '../../../../app/selectors/autocomplete';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import AtMention from './at_mention';

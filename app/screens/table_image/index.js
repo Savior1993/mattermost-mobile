@@ -3,7 +3,7 @@
 
 import {connect} from 'react-redux';
 
-import {getDimensions} from 'app/selectors/device';
+import {getDimensions} from '../../../app/selectors/device';
 
 import TableImage from './table_image';
 

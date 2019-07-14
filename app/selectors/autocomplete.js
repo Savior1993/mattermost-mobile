@@ -13,8 +13,8 @@ import {
 import {sortChannelsByDisplayName} from 'mattermost-redux/utils/channel_utils';
 import {sortByUsername} from 'mattermost-redux/utils/user_utils';
 
-import * as Autocomplete from 'app/constants/autocomplete';
-import {getCurrentLocale} from 'app/selectors/i18n';
+import * as Autocomplete from '../../app/constants/autocomplete';
+import {getCurrentLocale} from '../../app/selectors/i18n';
 
 export const getMatchTermForAtMention = (() => {
     let lastMatchTerm = null;

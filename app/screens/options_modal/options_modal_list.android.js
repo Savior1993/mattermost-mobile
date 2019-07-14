@@ -11,8 +11,8 @@ import {
 } from 'react-native';
 import IconFont from 'react-native-vector-icons/FontAwesome';
 
-import FormattedText from 'app/components/formatted_text';
-import {preventDoubleTap} from 'app/utils/tap';
+import FormattedText from '../../../app/components/formatted_text';
+import {preventDoubleTap} from '../../../app/utils/tap';
 
 export default class OptionsModalList extends PureComponent {
     static propTypes = {

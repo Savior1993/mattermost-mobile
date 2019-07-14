@@ -10,11 +10,11 @@ import {
 
 import {Client4} from 'mattermost-redux/client';
 
-import {isDocument, isGif, isVideo} from 'app/utils/file';
-import ImageCacheManager from 'app/utils/image_cache_manager';
-import {previewImageAtIndex} from 'app/utils/images';
-import {preventDoubleTap} from 'app/utils/tap';
-import {emptyFunction} from 'app/utils/general';
+import {isDocument, isGif, isVideo} from '../../../app/utils/file';
+import ImageCacheManager from '../../../app/utils/image_cache_manager';
+import {previewImageAtIndex} from '../../../app/utils/images';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {emptyFunction} from '../../../app/utils/general';
 
 import FileAttachment from './file_attachment';
 

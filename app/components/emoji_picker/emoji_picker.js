@@ -19,13 +19,13 @@ import sectionListGetItemLayout from 'react-native-section-list-get-item-layout'
 
 import {isMinimumServerVersion} from 'mattermost-redux/utils/helpers';
 
-import Emoji from 'app/components/emoji';
-import FormattedText from 'app/components/formatted_text';
-import SafeAreaView from 'app/components/safe_area_view';
-import SearchBar from 'app/components/search_bar';
-import {DeviceTypes} from 'app/constants';
-import {emptyFunction} from 'app/utils/general';
-import {makeStyleSheetFromTheme, changeOpacity} from 'app/utils/theme';
+import Emoji from '../../../app/components/emoji';
+import FormattedText from '../../../app/components/formatted_text';
+import SafeAreaView from '../../../app/components/safe_area_view';
+import SearchBar from '../../../app/components/search_bar';
+import {DeviceTypes} from '../../../app/constants';
+import {emptyFunction} from '../../../app/utils/general';
+import {makeStyleSheetFromTheme, changeOpacity} from '../../../app/utils/theme';
 
 import EmojiPickerRow from './emoji_picker_row';
 

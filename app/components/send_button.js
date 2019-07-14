@@ -6,7 +6,7 @@ import {TouchableOpacity, View} from 'react-native';
 
 import PropTypes from 'prop-types';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../app/utils/theme';
 
 let PaperPlane = null;
 
@@ -15,7 +15,7 @@ function SendButton(props) {
     const style = getStyleSheet(theme);
 
     if (!PaperPlane) {
-        PaperPlane = require('app/components/paper_plane').default;
+        PaperPlane = require('../../app/components/paper_plane').default;
     }
 
     const icon = (

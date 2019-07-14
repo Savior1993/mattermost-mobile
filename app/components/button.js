@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 import {ActivityIndicator, StyleSheet, TouchableHighlight, View} from 'react-native';
 
-import {GlobalStyles} from 'app/styles';
+import {GlobalStyles} from '../../app/styles';
 
 const styles = StyleSheet.create({
     container: {

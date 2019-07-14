@@ -12,8 +12,8 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-import FormattedText from 'app/components/formatted_text';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import FormattedText from '../../../app/components/formatted_text';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 function createTouchableComponent(children, action) {
     return (

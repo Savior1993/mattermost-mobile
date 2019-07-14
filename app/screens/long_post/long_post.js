@@ -12,14 +12,14 @@ import {intlShape} from 'react-intl';
 import * as Animatable from 'react-native-animatable';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
-import FileAttachmentList from 'app/components/file_attachment_list';
-import FormattedText from 'app/components/formatted_text';
-import Post from 'app/components/post';
-import Reactions from 'app/components/reactions';
-import SafeAreaView from 'app/components/safe_area_view';
-import {emptyFunction} from 'app/utils/general';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import FileAttachmentList from '../../../app/components/file_attachment_list';
+import FormattedText from '../../../app/components/formatted_text';
+import Post from '../../../app/components/post';
+import Reactions from '../../../app/components/reactions';
+import SafeAreaView from '../../../app/components/safe_area_view';
+import {emptyFunction} from '../../../app/utils/general';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 Animatable.initializeRegistryWithDefinitions({
     growOut: {

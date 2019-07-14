@@ -21,9 +21,9 @@ import {haveIChannelPermission} from 'mattermost-redux/selectors/entities/roles'
 import {getCurrentTeamId, getCurrentTeamUrl} from 'mattermost-redux/selectors/entities/teams';
 import {canEditPost} from 'mattermost-redux/utils/post_utils';
 
-import {THREAD} from 'app/constants/screen';
-import {addReaction} from 'app/actions/views/emoji';
-import {getDimensions} from 'app/selectors/device';
+import {THREAD} from '../../../app/constants/screen';
+import {addReaction} from '../../../app/actions/views/emoji';
+import {getDimensions} from '../../../app/selectors/device';
 
 import PostOptions from './post_options';
 

@@ -14,16 +14,16 @@ import {debounce} from 'mattermost-redux/actions/helpers';
 import {General} from 'mattermost-redux/constants';
 import {filterProfilesMatchingTerm} from 'mattermost-redux/utils/user_utils';
 
-import Loading from 'app/components/loading';
-import CustomList, {FLATLIST, SECTIONLIST} from 'app/components/custom_list';
-import UserListRow from 'app/components/custom_list/user_list_row';
-import FormattedText from 'app/components/formatted_text';
-import KeyboardLayout from 'app/components/layout/keyboard_layout';
-import SearchBar from 'app/components/search_bar';
-import StatusBar from 'app/components/status_bar';
-import {alertErrorIfInvalidPermissions} from 'app/utils/general';
-import {createProfilesSections, loadingText} from 'app/utils/member_list';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
+import Loading from '../../../app/components/loading';
+import CustomList, {FLATLIST, SECTIONLIST} from '../../../app/components/custom_list';
+import UserListRow from '../../../app/components/custom_list/user_list_row';
+import FormattedText from '../../../app/components/formatted_text';
+import KeyboardLayout from '../../../app/components/layout/keyboard_layout';
+import SearchBar from '../../../app/components/search_bar';
+import StatusBar from '../../../app/components/status_bar';
+import {alertErrorIfInvalidPermissions} from '../../../app/utils/general';
+import {createProfilesSections, loadingText} from '../../../app/utils/member_list';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../app/utils/theme';
 
 export default class ChannelAddMembers extends PureComponent {
     static propTypes = {

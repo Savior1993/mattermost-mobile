@@ -10,9 +10,9 @@ import {
     View,
 } from 'react-native';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import FormattedText from 'app/components/formatted_text';
-import VectorIcon from 'app/components/vector_icon.js';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
+import FormattedText from '../../../app/components/formatted_text';
+import VectorIcon from '../../../app/components/vector_icon.js';
 
 const createStyleSheet = makeStyleSheetFromTheme((theme) => {
     return {

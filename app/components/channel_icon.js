@@ -11,9 +11,9 @@ import {
 
 import {General} from 'mattermost-redux/constants';
 
-import Icon from 'app/components/vector_icon';
+import Icon from '../../app/components/vector_icon';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../app/utils/theme';
 
 export default class ChannelIcon extends React.PureComponent {
     static propTypes = {

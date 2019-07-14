@@ -6,7 +6,7 @@ import {
     Animated,
     StyleSheet,
 } from 'react-native';
-import FormattedText from 'app/components/formatted_text';
+import FormattedText from '../../../app/components/formatted_text';
 
 const {View: AnimatedView} = Animated;
 

@@ -11,12 +11,12 @@ import {
 import {getTimezoneRegion} from 'mattermost-redux/utils/timezone_utils';
 import {intlShape} from 'react-intl';
 
-import SearchBar from 'app/components/search_bar';
-import StatusBar from 'app/components/status_bar';
+import SearchBar from '../../../../app/components/search_bar';
+import StatusBar from '../../../../app/components/status_bar';
 import SelectTimezoneRow from './select_timezone_row';
 
-import {ListTypes} from 'app/constants';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {ListTypes} from '../../../../app/constants';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 const ITEM_HEIGHT = 45;
 const VIEWABILITY_CONFIG = ListTypes.VISIBILITY_CONFIG_DEFAULTS;

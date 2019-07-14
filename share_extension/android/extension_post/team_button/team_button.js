@@ -10,7 +10,7 @@ import {
     View,
 } from 'react-native';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 export default class TeamButton extends PureComponent {
     static propTypes = {

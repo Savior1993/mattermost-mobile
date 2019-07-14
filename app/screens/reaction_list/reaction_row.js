@@ -13,11 +13,11 @@ import {
 
 import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
-import ProfilePicture from 'app/components/profile_picture';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity} from 'app/utils/theme';
+import ProfilePicture from '../../../app/components/profile_picture';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {changeOpacity} from '../../../app/utils/theme';
 
-import Emoji from 'app/components/emoji';
+import Emoji from '../../../app/components/emoji';
 
 export default class ReactionRow extends React.PureComponent {
     static propTypes = {

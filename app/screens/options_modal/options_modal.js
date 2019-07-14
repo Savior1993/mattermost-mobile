@@ -12,8 +12,8 @@ import {
 
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import {NavigationTypes} from 'app/constants';
-import {emptyFunction} from 'app/utils/general';
+import {NavigationTypes} from '../../../app/constants';
+import {emptyFunction} from '../../../app/utils/general';
 
 import OptionsModalList from './options_modal_list';
 

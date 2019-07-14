@@ -4,8 +4,8 @@
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 
-import TextSetting from 'app/components/widgets/settings/text_setting';
-import AutocompleteSelector from 'app/components/autocomplete_selector';
+import TextSetting from '../../../app/components/widgets/settings/text_setting';
+import AutocompleteSelector from '../../../app/components/autocomplete_selector';
 
 const TEXT_DEFAULT_MAX_LENGTH = 150;
 const TEXTAREA_DEFAULT_MAX_LENGTH = 3000;

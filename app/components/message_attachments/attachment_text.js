@@ -5,9 +5,9 @@ import React, {PureComponent} from 'react';
 import {ScrollView, StyleSheet, View} from 'react-native';
 import PropTypes from 'prop-types';
 
-import Markdown from 'app/components/markdown';
-import ShowMoreButton from 'app/components/show_more_button';
-import CustomPropTypes from 'app/constants/custom_prop_types';
+import Markdown from '../../../app/components/markdown';
+import ShowMoreButton from '../../../app/components/show_more_button';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
 
 const SHOW_MORE_HEIGHT = 60;
 

@@ -21,9 +21,9 @@ import tinyColor from 'tinycolor2';
 
 import {getFileUrl} from 'mattermost-redux/utils/file_utils.js';
 
-import {DeviceTypes} from 'app/constants/';
-import mattermostBucket from 'app/mattermost_bucket';
-import {changeOpacity} from 'app/utils/theme';
+import {DeviceTypes} from '../../../app/constants/';
+import mattermostBucket from '../../../app/mattermost_bucket';
+import {changeOpacity} from '../../../app/utils/theme';
 
 import FileAttachmentIcon from './file_attachment_icon';
 

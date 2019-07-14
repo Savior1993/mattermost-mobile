@@ -13,11 +13,11 @@ import {getFullName} from 'mattermost-redux/utils/user_utils';
 import {General} from 'mattermost-redux/constants';
 import {injectIntl, intlShape} from 'react-intl';
 
-import ProfilePicture from 'app/components/profile_picture';
-import BotTag from 'app/components/bot_tag';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import ProfilePicture from '../../../app/components/profile_picture';
+import BotTag from '../../../app/components/bot_tag';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
 
 class ChannelIntro extends PureComponent {
     static propTypes = {

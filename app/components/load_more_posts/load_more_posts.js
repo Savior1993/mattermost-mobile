@@ -10,10 +10,10 @@ import {
     ViewPropTypes,
 } from 'react-native';
 
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import {makeStyleSheetFromTheme} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
 
-import FormattedText from 'app/components/formatted_text';
+import FormattedText from '../../../app/components/formatted_text';
 
 export default class LoadMorePosts extends PureComponent {
     static propTypes = {

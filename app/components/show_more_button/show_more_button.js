@@ -6,10 +6,10 @@ import PropTypes from 'prop-types';
 import {Text, TouchableOpacity, View} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
-import FormattedText from 'app/components/formatted_text';
-import {t} from 'app/utils/i18n';
+import FormattedText from '../../../app/components/formatted_text';
+import {t} from '../../../app/utils/i18n';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 export default class ShowMoreButton extends PureComponent {
     static propTypes = {

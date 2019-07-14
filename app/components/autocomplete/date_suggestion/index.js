@@ -5,8 +5,8 @@ import {connect} from 'react-redux';
 
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
-import {makeGetMatchTermForDateMention} from 'app/selectors/autocomplete';
-import {getCurrentLocale} from 'app/selectors/i18n';
+import {makeGetMatchTermForDateMention} from '../../../../app/selectors/autocomplete';
+import {getCurrentLocale} from '../../../../app/selectors/i18n';
 
 import DateSuggestion from './date_suggestion';
 

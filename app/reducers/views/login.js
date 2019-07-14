@@ -3,7 +3,7 @@
 
 import {combineReducers} from 'redux';
 import {UserTypes} from 'mattermost-redux/action_types';
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
 function loginId(state = '', action) {
     switch (action.type) {

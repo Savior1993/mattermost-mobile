@@ -12,7 +12,7 @@ import {
 
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import FormattedText from 'app/components/formatted_text';
+import FormattedText from '../../../app/components/formatted_text';
 
 import FileUploadItem from './file_upload_item';
 

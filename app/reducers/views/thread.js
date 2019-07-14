@@ -4,7 +4,7 @@
 import {combineReducers} from 'redux';
 import {FileTypes, PostTypes} from 'mattermost-redux/action_types';
 
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
 function handleCommentDraftChanged(state, action) {
     if (!action.rootId) {

@@ -13,9 +13,9 @@ import {
     View,
 } from 'react-native';
 
-import FormattedText from 'app/components/formatted_text';
-import ProfilePicture from 'app/components/profile_picture';
-import {changeOpacity} from 'app/utils/theme';
+import FormattedText from '../../../app/components/formatted_text';
+import ProfilePicture from '../../../app/components/profile_picture';
+import {changeOpacity} from '../../../app/utils/theme';
 
 import {isDirectChannel} from 'mattermost-redux/utils/channel_utils';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';

@@ -9,10 +9,10 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
-import FormattedText from 'app/components/formatted_text';
-import {preventDoubleTap} from 'app/utils/tap';
-import {makeStyleSheetFromTheme, changeOpacity} from 'app/utils/theme';
-import {ViewTypes} from 'app/constants';
+import FormattedText from '../../../app/components/formatted_text';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {makeStyleSheetFromTheme, changeOpacity} from '../../../app/utils/theme';
+import {ViewTypes} from '../../../app/constants';
 
 export default class AutocompleteSelector extends PureComponent {
     static propTypes = {

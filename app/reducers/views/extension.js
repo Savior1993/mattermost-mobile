@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 import {combineReducers} from 'redux';
 
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
 function selectedTeamId(state = '', action) {
     switch (action.type) {

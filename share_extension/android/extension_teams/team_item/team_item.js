@@ -10,10 +10,10 @@ import {
 } from 'react-native';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {preventDoubleTap} from '../../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
-import TeamIcon from 'app/components/team_icon';
+import TeamIcon from '../../../../app/components/team_icon';
 
 export default class TeamItem extends PureComponent {
     static propTypes = {

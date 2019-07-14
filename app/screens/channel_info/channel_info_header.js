@@ -9,12 +9,12 @@ import {
     Platform,
 } from 'react-native';
 
-import ChannelIcon from 'app/components/channel_icon';
-import FormattedDate from 'app/components/formatted_date';
-import FormattedText from 'app/components/formatted_text';
-import Markdown from 'app/components/markdown';
-import {getMarkdownTextStyles, getMarkdownBlockStyles} from 'app/utils/markdown';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import ChannelIcon from '../../../app/components/channel_icon';
+import FormattedDate from '../../../app/components/formatted_date';
+import FormattedText from '../../../app/components/formatted_text';
+import Markdown from '../../../app/components/markdown';
+import {getMarkdownTextStyles, getMarkdownBlockStyles} from '../../../app/utils/markdown';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 export default class ChannelInfoHeader extends React.PureComponent {
     static propTypes = {

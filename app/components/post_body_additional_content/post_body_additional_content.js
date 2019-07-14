@@ -17,15 +17,15 @@ import {intlShape} from 'react-intl';
 
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import {TABLET_WIDTH} from 'app/components/sidebars/drawer_layout';
-import PostAttachmentImage from 'app/components/post_attachment_image';
-import ProgressiveImage from 'app/components/progressive_image';
+import {TABLET_WIDTH} from '../../../app/components/sidebars/drawer_layout';
+import PostAttachmentImage from '../../../app/components/post_attachment_image';
+import ProgressiveImage from '../../../app/components/progressive_image';
 
-import {DeviceTypes} from 'app/constants';
-import CustomPropTypes from 'app/constants/custom_prop_types';
-import ImageCacheManager from 'app/utils/image_cache_manager';
-import {previewImageAtIndex, calculateDimensions} from 'app/utils/images';
-import {getYouTubeVideoId, isImageLink, isYoutubeLink} from 'app/utils/url';
+import {DeviceTypes} from '../../../app/constants';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
+import ImageCacheManager from '../../../app/utils/image_cache_manager';
+import {previewImageAtIndex, calculateDimensions} from '../../../app/utils/images';
+import {getYouTubeVideoId, isImageLink, isYoutubeLink} from '../../../app/utils/url';
 
 const VIEWPORT_IMAGE_OFFSET = 66;
 const VIEWPORT_IMAGE_REPLY_OFFSET = 13;
@@ -199,7 +199,7 @@ export default class PostBodyAdditionalContent extends PureComponent {
 
         if (link && showLinkPreviews) {
             if (!PostAttachmentOpenGraph) {
-                PostAttachmentOpenGraph = require('app/components/post_attachment_opengraph').default;
+                PostAttachmentOpenGraph = require('../../../app/components/post_attachment_opengraph').default;
             }
 
             return (
@@ -353,7 +353,7 @@ export default class PostBodyAdditionalContent extends PureComponent {
 
         if (attachments && attachments.length) {
             if (!MessageAttachments) {
-                MessageAttachments = require('app/components/message_attachments').default;
+                MessageAttachments = require('../../../app/components/message_attachments').default;
             }
 
             return (

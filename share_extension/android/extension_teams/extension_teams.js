@@ -13,7 +13,7 @@ import {
 
 import {Preferences} from 'mattermost-redux/constants';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 import TeamItem from './team_item';
 

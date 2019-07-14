@@ -5,13 +5,13 @@ import {
     View,
 } from 'react-native';
 
-import StatusBar from 'app/components/status_bar';
-import Section from 'app/screens/settings/section';
-import SectionItem from 'app/screens/settings/section_item';
-import FormattedText from 'app/components/formatted_text';
+import StatusBar from '../../../app/components/status_bar';
+import Section from '../../../app/screens/settings/section';
+import SectionItem from '../../../app/screens/settings/section_item';
+import FormattedText from '../../../app/components/formatted_text';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
 
 import ClockDisplayBase from './clock_display_base';
 

@@ -11,8 +11,8 @@ import {ImageContent} from 'rn-placeholder';
 
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 function calculateMaxRows(height) {
     return Math.round(height / 100);

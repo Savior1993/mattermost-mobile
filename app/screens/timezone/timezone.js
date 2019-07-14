@@ -12,12 +12,12 @@ import {intlShape} from 'react-intl';
 
 import {getTimezoneRegion} from 'mattermost-redux/utils/timezone_utils';
 
-import FormattedText from 'app/components/formatted_text';
-import StatusBar from 'app/components/status_bar';
-import Section from 'app/screens/settings/section';
-import SectionItem from 'app/screens/settings/section_item';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {getDeviceTimezone} from 'app/utils/timezone';
+import FormattedText from '../../../app/components/formatted_text';
+import StatusBar from '../../../app/components/status_bar';
+import Section from '../../../app/screens/settings/section';
+import SectionItem from '../../../app/screens/settings/section_item';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
+import {getDeviceTimezone} from '../../../app/utils/timezone';
 
 export default class Timezone extends PureComponent {
     static propTypes = {

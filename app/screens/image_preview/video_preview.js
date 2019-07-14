@@ -16,9 +16,9 @@ import {intlShape} from 'react-intl';
 
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import VideoControls, {PLAYER_STATE} from 'app/components/video_controls';
-import {DeviceTypes} from 'app/constants/';
-import {getLocalFilePathFromFile} from 'app/utils/file';
+import VideoControls, {PLAYER_STATE} from '../../../app/components/video_controls';
+import {DeviceTypes} from '../../../app/constants/';
+import {getLocalFilePathFromFile} from '../../../app/utils/file';
 
 import Downloader from './downloader.ios';
 

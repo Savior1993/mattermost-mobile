@@ -5,8 +5,8 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {View} from 'react-native';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 import AttachmentActions from './attachment_actions';
 import AttachmentAuthor from './attachment_author';

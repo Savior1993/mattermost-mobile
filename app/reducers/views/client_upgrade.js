@@ -4,7 +4,7 @@ const initialState = {
     lastUpdateCheck: 0,
 };
 
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
 export default function clientUpgrade(state = initialState, action) {
     switch (action.type) {

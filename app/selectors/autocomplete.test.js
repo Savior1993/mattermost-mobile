@@ -5,7 +5,7 @@ import assert from 'assert';
 
 import {
     getMatchTermForAtMention,
-} from 'app/selectors/autocomplete';
+} from '../../app/selectors/autocomplete';
 
 /* eslint-disable max-nested-callbacks */
 

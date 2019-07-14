@@ -10,15 +10,15 @@ import {
 import {General} from 'mattermost-redux/constants';
 import {intlShape} from 'react-intl';
 
-import FormattedText from 'app/components/formatted_text';
-import StatusBar from 'app/components/status_bar';
-import TextInputWithLocalizedPlaceholder from 'app/components/text_input_with_localized_placeholder';
-import {getNotificationProps} from 'app/utils/notify_props';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import FormattedText from '../../../../app/components/formatted_text';
+import StatusBar from '../../../../app/components/status_bar';
+import TextInputWithLocalizedPlaceholder from '../../../../app/components/text_input_with_localized_placeholder';
+import {getNotificationProps} from '../../../../app/utils/notify_props';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
+import {t} from '../../../../app/utils/i18n';
 
-import Section from 'app/screens/settings/section';
-import SectionItem from 'app/screens/settings/section_item';
+import Section from '../../../../app/screens/settings/section';
+import SectionItem from '../../../../app/screens/settings/section_item';
 
 export default class NotificationSettingsAutoResponder extends PureComponent {
     static propTypes = {

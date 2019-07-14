@@ -11,10 +11,10 @@ import {
 
 import {Client4} from 'mattermost-redux/client';
 
-import ProgressiveImage from 'app/components/progressive_image';
-import {isGif} from 'app/utils/file';
-import {emptyFunction} from 'app/utils/general';
-import ImageCacheManager from 'app/utils/image_cache_manager';
+import ProgressiveImage from '../../../app/components/progressive_image';
+import {isGif} from '../../../app/utils/file';
+import {emptyFunction} from '../../../app/utils/general';
+import ImageCacheManager from '../../../app/utils/image_cache_manager';
 
 import thumb from 'assets/images/thumb.png';
 

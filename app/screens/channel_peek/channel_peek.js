@@ -7,8 +7,8 @@ import {Platform, View} from 'react-native';
 
 import {getLastPostIndex} from 'mattermost-redux/utils/post_list';
 
-import PostList from 'app/components/post_list';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import PostList from '../../../app/components/post_list';
+import {makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 export default class ChannelPeek extends PureComponent {
     static propTypes = {

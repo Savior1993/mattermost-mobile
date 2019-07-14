@@ -5,8 +5,8 @@ import React, {PureComponent} from 'react';
 import {StyleSheet, View} from 'react-native';
 import PropTypes from 'prop-types';
 
-import Markdown from 'app/components/markdown';
-import CustomPropTypes from 'app/constants/custom_prop_types';
+import Markdown from '../../../app/components/markdown';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
 
 export default class AttachmentPreText extends PureComponent {
     static propTypes = {

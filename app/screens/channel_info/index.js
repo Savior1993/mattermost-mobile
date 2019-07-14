@@ -38,7 +38,7 @@ import {
     loadChannelsByTeamName,
     selectPenultimateChannel,
     setChannelDisplayName,
-} from 'app/actions/views/channel';
+} from '../../../app/actions/views/channel';
 
 import ChannelInfo from './channel_info';
 

@@ -10,14 +10,14 @@ import {
 } from 'react-native';
 import {intlShape} from 'react-intl';
 
-import FailedNetworkAction from 'app/components/failed_network_action';
-import Loading from 'app/components/loading';
-import Markdown from 'app/components/markdown';
-import StatusBar from 'app/components/status_bar';
+import FailedNetworkAction from '../../../app/components/failed_network_action';
+import Loading from '../../../app/components/loading';
+import Markdown from '../../../app/components/markdown';
+import StatusBar from '../../../app/components/status_bar';
 
-import {t} from 'app/utils/i18n';
-import {getMarkdownTextStyles, getMarkdownBlockStyles} from 'app/utils/markdown';
-import {makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
+import {t} from '../../../app/utils/i18n';
+import {getMarkdownTextStyles, getMarkdownBlockStyles} from '../../../app/utils/markdown';
+import {makeStyleSheetFromTheme, setNavigatorStyles} from '../../../app/utils/theme';
 
 const errorTitle = {
     id: t('mobile.terms_of_service.get_terms_error_title'),

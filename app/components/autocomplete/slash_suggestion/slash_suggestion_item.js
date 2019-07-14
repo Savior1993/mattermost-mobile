@@ -8,7 +8,7 @@ import {
     TouchableOpacity,
 } from 'react-native';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../../app/utils/theme';
 
 export default class SlashSuggestionItem extends PureComponent {
     static propTypes = {

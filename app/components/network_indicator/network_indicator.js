@@ -16,12 +16,12 @@ import {
 import NetInfo from '@react-native-community/netinfo';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 
-import FormattedText from 'app/components/formatted_text';
-import {DeviceTypes, ViewTypes} from 'app/constants';
-import mattermostBucket from 'app/mattermost_bucket';
-import PushNotifications from 'app/push_notifications';
-import networkConnectionListener, {checkConnection} from 'app/utils/network';
-import {t} from 'app/utils/i18n';
+import FormattedText from '../../../app/components/formatted_text';
+import {DeviceTypes, ViewTypes} from '../../../app/constants';
+import mattermostBucket from '../../../app/mattermost_bucket';
+import PushNotifications from '../../../app/push_notifications';
+import networkConnectionListener, {checkConnection} from '../../../app/utils/network';
+import {t} from '../../../app/utils/i18n';
 
 import {RequestStatus} from 'mattermost-redux/constants';
 

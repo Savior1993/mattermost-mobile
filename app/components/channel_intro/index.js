@@ -10,7 +10,7 @@ import {getCurrentUserId, getUser, makeGetProfilesInChannel} from 'mattermost-re
 
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
-import {getChannelMembersForDm} from 'app/selectors/channel';
+import {getChannelMembersForDm} from '../../../app/selectors/channel';
 
 import ChannelIntro from './channel_intro';
 

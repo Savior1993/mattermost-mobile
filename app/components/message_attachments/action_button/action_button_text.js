@@ -4,8 +4,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {Text, View, StyleSheet} from 'react-native';
-import Emoji from 'app/components/emoji';
-import {getEmoticonName} from 'app/utils/emoji_utils';
+import Emoji from '../../../../app/components/emoji';
+import {getEmoticonName} from '../../../../app/utils/emoji_utils';
 
 // reEmoji matches an emoji (eg. :taco:) at the start of a string.
 const reEmoji = /^:([a-z0-9_\-+]+):\B/i;

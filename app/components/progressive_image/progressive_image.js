@@ -5,9 +5,9 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {Animated, Image, ImageBackground, Platform, View, StyleSheet} from 'react-native';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
-import ImageCacheManager from 'app/utils/image_cache_manager';
-import {changeOpacity} from 'app/utils/theme';
+import CustomPropTypes from '../../../app/constants/custom_prop_types';
+import ImageCacheManager from '../../../app/utils/image_cache_manager';
+import {changeOpacity} from '../../../app/utils/theme';
 
 const AnimatedImageBackground = Animated.createAnimatedComponent(ImageBackground);
 

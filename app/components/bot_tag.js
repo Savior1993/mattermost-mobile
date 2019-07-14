@@ -3,8 +3,8 @@
 
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
-import FormattedText from 'app/components/formatted_text';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../app/utils/theme';
+import FormattedText from '../../app/components/formatted_text';
 
 export default class BotTag extends PureComponent {
     static defaultProps = {

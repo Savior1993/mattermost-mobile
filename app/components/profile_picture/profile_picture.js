@@ -8,10 +8,10 @@ import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
 
 import {Client4} from 'mattermost-redux/client';
 
-import UserStatus from 'app/components/user_status';
-import ImageCacheManager from 'app/utils/image_cache_manager';
-import {emptyFunction} from 'app/utils/general';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import UserStatus from '../../../app/components/user_status';
+import ImageCacheManager from '../../../app/utils/image_cache_manager';
+import {emptyFunction} from '../../../app/utils/general';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 import placeholder from 'assets/images/profile.jpg';
 

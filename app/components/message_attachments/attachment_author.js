@@ -5,7 +5,7 @@ import React, {PureComponent} from 'react';
 import {Image, Linking, Text, View} from 'react-native';
 import PropTypes from 'prop-types';
 
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 
 export default class AttachmentAuthor extends PureComponent {
     static propTypes = {

@@ -6,7 +6,7 @@ import {bindActionCreators} from 'redux';
 
 import {getOpenGraphMetadata} from 'mattermost-redux/actions/posts';
 
-import {getDimensions} from 'app/selectors/device';
+import {getDimensions} from '../../../app/selectors/device';
 
 import PostAttachmentOpenGraph from './post_attachment_opengraph';
 

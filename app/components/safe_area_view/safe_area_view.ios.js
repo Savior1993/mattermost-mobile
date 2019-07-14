@@ -8,8 +8,8 @@ import SafeArea from 'react-native-safe-area';
 
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import {DeviceTypes} from 'app/constants';
-import mattermostManaged from 'app/mattermost_managed';
+import {DeviceTypes} from '../../../app/constants';
+import mattermostManaged from '../../../app/mattermost_managed';
 
 const {StatusBarManager} = NativeModules;
 

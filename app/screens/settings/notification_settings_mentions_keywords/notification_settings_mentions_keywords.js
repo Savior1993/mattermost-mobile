@@ -4,10 +4,10 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {ScrollView, View} from 'react-native';
 
-import FormattedText from 'app/components/formatted_text';
-import StatusBar from 'app/components/status_bar';
-import TextInputWithLocalizedPlaceholder from 'app/components/text_input_with_localized_placeholder';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
+import FormattedText from '../../../../app/components/formatted_text';
+import StatusBar from '../../../../app/components/status_bar';
+import TextInputWithLocalizedPlaceholder from '../../../../app/components/text_input_with_localized_placeholder';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../../app/utils/theme';
 
 export default class NotificationSettingsMentionsKeywords extends PureComponent {
     static propTypes = {

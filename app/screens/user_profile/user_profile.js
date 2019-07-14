@@ -14,14 +14,14 @@ import {intlShape} from 'react-intl';
 import {displayUsername} from 'mattermost-redux/utils/user_utils';
 import {getUserCurrentTimezone} from 'mattermost-redux/utils/timezone_utils';
 
-import ProfilePicture from 'app/components/profile_picture';
-import FormattedText from 'app/components/formatted_text';
-import FormattedTime from 'app/components/formatted_time';
-import StatusBar from 'app/components/status_bar';
-import BotTag from 'app/components/bot_tag';
-import {alertErrorWithFallback} from 'app/utils/general';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import ProfilePicture from '../../../app/components/profile_picture';
+import FormattedText from '../../../app/components/formatted_text';
+import FormattedTime from '../../../app/components/formatted_time';
+import StatusBar from '../../../app/components/status_bar';
+import BotTag from '../../../app/components/bot_tag';
+import {alertErrorWithFallback} from '../../../app/utils/general';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
 
 import UserProfileRow from './user_profile_row';
 import Config from 'assets/config';

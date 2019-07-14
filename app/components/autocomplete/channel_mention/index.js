@@ -15,7 +15,7 @@ import {
     filterPrivateChannels,
     filterDirectAndGroupMessages,
     getMatchTermForChannelMention,
-} from 'app/selectors/autocomplete';
+} from '../../../../app/selectors/autocomplete';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
 import ChannelMention from './channel_mention';

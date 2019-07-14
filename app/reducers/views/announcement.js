@@ -3,7 +3,7 @@
 
 import {UserTypes} from 'mattermost-redux/action_types';
 
-import {ViewTypes} from 'app/constants';
+import {ViewTypes} from '../../../app/constants';
 
 export default function banner(state = '', action) {
     switch (action.type) {

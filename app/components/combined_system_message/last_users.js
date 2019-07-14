@@ -8,11 +8,11 @@ import {intlShape} from 'react-intl';
 
 import {Posts} from 'mattermost-redux/constants';
 
-import FormattedMarkdownText from 'app/components/formatted_markdown_text';
-import FormattedText from 'app/components/formatted_text';
-import Markdown from 'app/components/markdown';
+import FormattedMarkdownText from '../../../app/components/formatted_markdown_text';
+import FormattedText from '../../../app/components/formatted_text';
+import Markdown from '../../../app/components/markdown';
 
-import {t} from 'app/utils/i18n';
+import {t} from '../../../app/utils/i18n';
 
 const typeMessage = {
     [Posts.POST_TYPES.ADD_TO_CHANNEL]: {

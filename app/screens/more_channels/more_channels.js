@@ -10,15 +10,15 @@ import {debounce} from 'mattermost-redux/actions/helpers';
 import {General} from 'mattermost-redux/constants';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import CustomList from 'app/components/custom_list';
-import ChannelListRow from 'app/components/custom_list/channel_list_row';
-import FormattedText from 'app/components/formatted_text';
-import KeyboardLayout from 'app/components/layout/keyboard_layout';
-import Loading from 'app/components/loading';
-import SearchBar from 'app/components/search_bar';
-import StatusBar from 'app/components/status_bar';
-import {alertErrorWithFallback} from 'app/utils/general';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
+import CustomList from '../../../app/components/custom_list';
+import ChannelListRow from '../../../app/components/custom_list/channel_list_row';
+import FormattedText from '../../../app/components/formatted_text';
+import KeyboardLayout from '../../../app/components/layout/keyboard_layout';
+import Loading from '../../../app/components/loading';
+import SearchBar from '../../../app/components/search_bar';
+import StatusBar from '../../../app/components/status_bar';
+import {alertErrorWithFallback} from '../../../app/utils/general';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../app/utils/theme';
 
 export default class MoreChannels extends PureComponent {
     static propTypes = {

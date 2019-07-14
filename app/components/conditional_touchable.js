@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {TouchableOpacity} from 'react-native';
 
-import CustomPropTypes from 'app/constants/custom_prop_types';
+import CustomPropTypes from '../../app/constants/custom_prop_types';
 
 export default class ConditionalTouchable extends React.PureComponent {
     static propTypes = {

@@ -12,11 +12,11 @@ import {
 import {General, RequestStatus} from 'mattermost-redux/constants';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import EditChannelInfo from 'app/components/edit_channel_info';
-import {ViewTypes} from 'app/constants';
-import {setNavigatorStyles} from 'app/utils/theme';
-import {cleanUpUrlable} from 'app/utils/url';
-import {t} from 'app/utils/i18n';
+import EditChannelInfo from '../../../app/components/edit_channel_info';
+import {ViewTypes} from '../../../app/constants';
+import {setNavigatorStyles} from '../../../app/utils/theme';
+import {cleanUpUrlable} from '../../../app/utils/url';
+import {t} from '../../../app/utils/i18n';
 
 const messages = {
     display_name_required: {

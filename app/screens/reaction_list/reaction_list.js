@@ -7,8 +7,8 @@ import {View} from 'react-native';
 
 import {intlShape} from 'react-intl';
 
-import SlideUpPanel from 'app/components/slide_up_panel';
-import {changeOpacity, makeStyleSheetFromTheme} from 'app/utils/theme';
+import SlideUpPanel from '../../../app/components/slide_up_panel';
+import {changeOpacity, makeStyleSheetFromTheme} from '../../../app/utils/theme';
 import {
     generateUserProfilesById,
     getMissingUserIds,
@@ -16,12 +16,12 @@ import {
     getSortedReactionsForHeader,
     getUniqueUserIds,
     sortReactions,
-} from 'app/utils/reaction';
+} from '../../../app/utils/reaction';
 
 import ReactionHeader from './reaction_header';
 import ReactionRow from './reaction_row';
 
-import {ALL_EMOJIS} from 'app/constants/emoji';
+import {ALL_EMOJIS} from '../../../app/constants/emoji';
 
 export default class ReactionList extends PureComponent {
     static propTypes = {

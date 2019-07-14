@@ -14,16 +14,16 @@ import {
 import {RequestStatus} from 'mattermost-redux/constants';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import FailedNetworkAction from 'app/components/failed_network_action';
-import FormattedText from 'app/components/formatted_text';
-import Loading from 'app/components/loading';
-import StatusBar from 'app/components/status_bar';
-import {preventDoubleTap} from 'app/utils/tap';
-import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
-import CustomList from 'app/components/custom_list';
+import FailedNetworkAction from '../../../app/components/failed_network_action';
+import FormattedText from '../../../app/components/formatted_text';
+import Loading from '../../../app/components/loading';
+import StatusBar from '../../../app/components/status_bar';
+import {preventDoubleTap} from '../../../app/utils/tap';
+import {changeOpacity, makeStyleSheetFromTheme, setNavigatorStyles} from '../../../app/utils/theme';
+import {t} from '../../../app/utils/i18n';
+import CustomList from '../../../app/components/custom_list';
 
-import TeamIcon from 'app/components/team_icon';
+import TeamIcon from '../../../app/components/team_icon';
 
 const TEAMS_PER_PAGE = 50;
 

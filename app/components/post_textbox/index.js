@@ -12,15 +12,15 @@ import {canUploadFilesOnMobile, getConfig} from 'mattermost-redux/selectors/enti
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {getCurrentUserId, getStatusForUserId} from 'mattermost-redux/selectors/entities/users';
 
-import {executeCommand} from 'app/actions/views/command';
-import {addReactionToLatestPost} from 'app/actions/views/emoji';
-import {handlePostDraftChanged, selectPenultimateChannel} from 'app/actions/views/channel';
-import {handleClearFiles, handleClearFailedFiles, handleRemoveLastFile, initUploadFiles} from 'app/actions/views/file_upload';
-import {handleCommentDraftChanged, handleCommentDraftSelectionChanged} from 'app/actions/views/thread';
-import {userTyping} from 'app/actions/views/typing';
-import {getCurrentChannelDraft, getThreadDraft} from 'app/selectors/views';
-import {getChannelMembersForDm} from 'app/selectors/channel';
-import {getAllowedServerMaxFileSize} from 'app/utils/file';
+import {executeCommand} from '../../../app/actions/views/command';
+import {addReactionToLatestPost} from '../../../app/actions/views/emoji';
+import {handlePostDraftChanged, selectPenultimateChannel} from '../../../app/actions/views/channel';
+import {handleClearFiles, handleClearFailedFiles, handleRemoveLastFile, initUploadFiles} from '../../../app/actions/views/file_upload';
+import {handleCommentDraftChanged, handleCommentDraftSelectionChanged} from '../../../app/actions/views/thread';
+import {userTyping} from '../../../app/actions/views/typing';
+import {getCurrentChannelDraft, getThreadDraft} from '../../../app/selectors/views';
+import {getChannelMembersForDm} from '../../../app/selectors/channel';
+import {getAllowedServerMaxFileSize} from '../../../app/utils/file';
 
 import PostTextbox from './post_textbox';
 

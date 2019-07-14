@@ -4,7 +4,7 @@
 import {connect} from 'react-redux';
 
 import {RequestStatus} from 'mattermost-redux/constants';
-import {getConnection} from 'app/selectors/device';
+import {getConnection} from '../../../app/selectors/device';
 
 import RetryBarIndicator from './retry_bar_indicator';
 

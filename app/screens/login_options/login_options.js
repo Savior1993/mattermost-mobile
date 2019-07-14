@@ -13,11 +13,11 @@ import {
 } from 'react-native';
 import Button from 'react-native-button';
 
-import {ViewTypes} from 'app/constants';
-import FormattedText from 'app/components/formatted_text';
-import StatusBar from 'app/components/status_bar';
-import {GlobalStyles} from 'app/styles';
-import {preventDoubleTap} from 'app/utils/tap';
+import {ViewTypes} from '../../../app/constants';
+import FormattedText from '../../../app/components/formatted_text';
+import StatusBar from '../../../app/components/status_bar';
+import {GlobalStyles} from '../../../app/styles';
+import {preventDoubleTap} from '../../../app/utils/tap';
 
 import LocalConfig from 'assets/config';
 import gitlab from 'assets/images/gitlab.png';

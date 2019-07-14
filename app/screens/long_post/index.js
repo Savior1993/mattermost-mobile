@@ -9,7 +9,7 @@ import {makeGetChannel} from 'mattermost-redux/selectors/entities/channels';
 import {getPost, makeGetReactionsForPost} from 'mattermost-redux/selectors/entities/posts';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
-import {loadThreadIfNecessary} from 'app/actions/views/channel';
+import {loadThreadIfNecessary} from '../../../app/actions/views/channel';
 
 import LongPost from './long_post';
 

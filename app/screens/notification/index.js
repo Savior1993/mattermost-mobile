@@ -4,8 +4,8 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {loadFromPushNotification} from 'app/actions/views/root';
-import {getDimensions} from 'app/selectors/device';
+import {loadFromPushNotification} from '../../../app/actions/views/root';
+import {getDimensions} from '../../../app/selectors/device';
 
 import {getChannel} from 'mattermost-redux/selectors/entities/channels';
 import {getTeammateNameDisplaySetting, getTheme} from 'mattermost-redux/selectors/entities/preferences';

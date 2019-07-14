@@ -7,7 +7,7 @@ import * as generalSelectors from 'mattermost-redux/selectors/entities/general';
 import * as userSelectors from 'mattermost-redux/selectors/entities/users';
 import * as commonSelectors from 'mattermost-redux/selectors/entities/common';
 import * as teamSelectors from 'mattermost-redux/selectors/entities/teams';
-import * as deviceSelectors from 'app/selectors/device';
+import * as deviceSelectors from '../../../app/selectors/device';
 import * as preferencesSelectors from 'mattermost-redux/selectors/entities/preferences';
 
 channelSelectors.getChannel = jest.fn();

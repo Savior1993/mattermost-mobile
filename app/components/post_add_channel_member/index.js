@@ -11,7 +11,7 @@ import {getPost} from 'mattermost-redux/selectors/entities/posts';
 import {getChannel} from 'mattermost-redux/selectors/entities/channels';
 import {getCurrentUser} from 'mattermost-redux/selectors/entities/users';
 
-import {sendAddToChannelEphemeralPost} from 'app/actions/views/post';
+import {sendAddToChannelEphemeralPost} from '../../../app/actions/views/post';
 
 import PostAddChannelMember from './post_add_channel_member';
 

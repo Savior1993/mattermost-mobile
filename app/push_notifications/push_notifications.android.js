@@ -4,7 +4,7 @@
 import {AppState, NativeModules} from 'react-native';
 import {NotificationsAndroid, PendingNotifications} from 'react-native-notifications';
 
-import ephemeralStore from 'app/store/ephemeral_store';
+import ephemeralStore from '../../app/store/ephemeral_store';
 
 const {NotificationPreferences} = NativeModules;
 

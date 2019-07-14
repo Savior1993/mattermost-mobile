@@ -9,9 +9,9 @@ import {clearSearch, getFlaggedPosts} from 'mattermost-redux/actions/search';
 import {RequestStatus} from 'mattermost-redux/constants';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 
-import {loadChannelsByTeamName, loadThreadIfNecessary} from 'app/actions/views/channel';
-import {showSearchModal} from 'app/actions/views/search';
-import {makePreparePostIdsForSearchPosts} from 'app/selectors/post_list';
+import {loadChannelsByTeamName, loadThreadIfNecessary} from '../../../app/actions/views/channel';
+import {showSearchModal} from '../../../app/actions/views/search';
+import {makePreparePostIdsForSearchPosts} from '../../../app/selectors/post_list';
 
 import FlaggedPosts from './flagged_posts';
 

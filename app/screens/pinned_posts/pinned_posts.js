@@ -14,15 +14,15 @@ import {
 
 import {isDateLine, getDateForDateLine} from 'mattermost-redux/utils/post_list';
 
-import ChannelLoader from 'app/components/channel_loader';
-import DateHeader from 'app/components/post_list/date_header';
-import FailedNetworkAction from 'app/components/failed_network_action';
-import NoResults from 'app/components/no_results';
-import PostSeparator from 'app/components/post_separator';
-import StatusBar from 'app/components/status_bar';
-import mattermostManaged from 'app/mattermost_managed';
-import SearchResultPost from 'app/screens/search/search_result_post';
-import {changeOpacity} from 'app/utils/theme';
+import ChannelLoader from '../../../app/components/channel_loader';
+import DateHeader from '../../../app/components/post_list/date_header';
+import FailedNetworkAction from '../../../app/components/failed_network_action';
+import NoResults from '../../../app/components/no_results';
+import PostSeparator from '../../../app/components/post_separator';
+import StatusBar from '../../../app/components/status_bar';
+import mattermostManaged from '../../../app/mattermost_managed';
+import SearchResultPost from '../../../app/screens/search/search_result_post';
+import {changeOpacity} from '../../../app/utils/theme';
 import noResultsImage from 'assets/images/no_results/pin.png';
 
 export default class PinnedPosts extends PureComponent {

@@ -10,8 +10,8 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-import FormattedText from 'app/components/formatted_text';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
+import FormattedText from '../../app/components/formatted_text';
+import {makeStyleSheetFromTheme} from '../../app/utils/theme';
 
 export default class PostListRetry extends PureComponent {
     static propTypes = {

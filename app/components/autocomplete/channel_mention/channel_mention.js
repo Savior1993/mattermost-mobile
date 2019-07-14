@@ -9,12 +9,12 @@ import {RequestStatus} from 'mattermost-redux/constants';
 import {isMinimumServerVersion} from 'mattermost-redux/utils/helpers';
 import {debounce} from 'mattermost-redux/actions/helpers';
 
-import {CHANNEL_MENTION_REGEX, CHANNEL_MENTION_SEARCH_REGEX} from 'app/constants/autocomplete';
-import AutocompleteDivider from 'app/components/autocomplete/autocomplete_divider';
-import AutocompleteSectionHeader from 'app/components/autocomplete/autocomplete_section_header';
-import ChannelMentionItem from 'app/components/autocomplete/channel_mention_item';
-import {makeStyleSheetFromTheme} from 'app/utils/theme';
-import {t} from 'app/utils/i18n';
+import {CHANNEL_MENTION_REGEX, CHANNEL_MENTION_SEARCH_REGEX} from '../../../../app/constants/autocomplete';
+import AutocompleteDivider from '../../../../app/components/autocomplete/autocomplete_divider';
+import AutocompleteSectionHeader from '../../../../app/components/autocomplete/autocomplete_section_header';
+import ChannelMentionItem from '../../../../app/components/autocomplete/channel_mention_item';
+import {makeStyleSheetFromTheme} from '../../../../app/utils/theme';
+import {t} from '../../../../app/utils/i18n';
 
 export default class ChannelMention extends PureComponent {
     static propTypes = {

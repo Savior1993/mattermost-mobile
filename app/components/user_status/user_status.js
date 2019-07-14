@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 
 import {General} from 'mattermost-redux/constants';
 
-import {changeOpacity} from 'app/utils/theme';
+import {changeOpacity} from '../../../app/utils/theme';
 
 import away from 'assets/images/status/away.png';
 import dnd from 'assets/images/status/dnd.png';
